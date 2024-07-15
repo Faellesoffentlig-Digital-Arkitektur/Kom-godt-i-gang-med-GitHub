@@ -1,4 +1,4 @@
-**Governance-model for den fællesoffentlige arkitektur (FDA)**
+# Governance-model for den fællesoffentlige arkitektur (FDA)
 
 ## Versionering
 
@@ -17,3 +17,14 @@ Minor-delen øges når ved mindre bagudkompatible ændringer og tilføjelser, he
 Patch-delen øges ved rettelser der ikke påvirker indhold overhovedet, primært fejlrettelser, fx stave- og grammatikfejl, opdatering af døde links / henvisninger, opdatering af ændrede navne (fx SDA -> UAS), ændringer af layout eller (billed)formater.
 
 Udkast har versionsnumre der starter med nul (fx 0.5.1). 1.0.0 er første færdige (udgivne) version.
+
+## Roller og ansvar
+
+### Produktansvarlig
+
+At være ansvarlig for et produkt udarbejdet af arkitekturteamet
+Produktet er fagligt forankret i arkitekturteamet
+
+### Produktadministrator
+
+At være ansvarlig for et produkt udarbejdet af et andet kontor i DIGST eller en ekstern organisation eks. KL
