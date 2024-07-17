@@ -54,5 +54,6 @@ Vejledninger i, hvordan man bruger GitHub.
 
 - Forretnings referencemodel (FORM)
 
-- Fællesoffentlig testmiljø (FOTM) (ligger ikke på arkitektur.digst.dk)
-  Licens anbefalinger (ligger ikke på arkitektur.digst.dk)
+- Fællesoffentlig testmiljø (FOTM)
+
+- Licens anbefalinger
