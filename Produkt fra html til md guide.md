@@ -26,12 +26,11 @@ til opgaver og issues med forskellige views )
 er noget som skal justeres efterfølgende (fx. billeder).
 [<u>https://htmlmarkdown.com/</u>](https://htmlmarkdown.com/))
 
-
 **2. Ændre produkt fra html til markdown**
 
-- \- Få adgang til "Organization" https://github.com/Faellesoffentlig-Digital-Arkitektur
+- Få adgang til "Organization" https://github.com/Faellesoffentlig-Digital-Arkitektur
   med alle produkt repositories (Hvert produkt har sit eget
-  repository) ved hjælp af github desktop vælg add og clone det
+  repository) ved hjælp af **github desktop** vælg add og clone det
   produkt du vil arbejde på
 
 - Brug **Html-to-markdown** til at kopier html blokken med teksten m.m. fra produktet som du arbejder på
