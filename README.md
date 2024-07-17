@@ -5,7 +5,8 @@ Vejledninger i, hvordan man bruger GitHub.
 ## Den fællesoffentlige digitale arkitektur - produkter
 
 - [Fællesoffentlig rammearkitektur]([Faellesoffentlig-Digital-Arkitektur/Faellesoffentlig-rammearkitektur: Den fællesoffentlige rammearkitektur er en oversigt over og vejledning til de delelementer, som skal anvendes i udviklingen af digitale løsningerne. (github.com)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Faellesoffentlig-rammearkitektur))
-  Hvidbog om fællesoffentlig digital arkitektur
+
+- Hvidbog om fællesoffentlig digital arkitektur
   Referencearkitektur for brugerstyring
   Referencearkitektur for deling af data og dokumenter
   Referencearkitektur for selvbetjening
