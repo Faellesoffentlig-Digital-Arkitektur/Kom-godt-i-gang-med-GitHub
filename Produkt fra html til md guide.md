@@ -38,7 +38,7 @@ er noget som skal justeres efterfølgende (fx. billeder).
 - Billeder: Download alle billeder fra produktet på https://arkitektur.digst.dk/
   og læg i en "assets" folder på det github produkt som du arbejder på.
 
-- Åben markdown filen med MarkText og start processen med at gennemgå filen for fejl.
+- Åben markdown filen med MarkText og start processen med at gennemgå filen for fejl
 
 - Tilføj billeder med ny billede sti.  
   
