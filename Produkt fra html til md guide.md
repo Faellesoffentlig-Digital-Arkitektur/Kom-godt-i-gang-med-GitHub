@@ -44,8 +44,9 @@ er noget som skal justeres efterfølgende (fx. billeder).
   
   > 1. Oppe i venstre hjørne klik på de 3 streger og vælg "File" - \>
   >    Preferences -\> image  
-  > 2. Klik "Prefer relative assets folder" sæt den til (grøn).  
-  > 3. Drag 'n' drop nu billeder fra assets folderen til de steder hvor
+  > 2. Øverst til højre vælg "Copy image to designated relative assets or global folder"
+  > 3. Klik "Prefer relative assets folder" sæt den til (grøn).  
+  > 4. Drag 'n' drop nu billeder fra assets folderen til de steder hvor
   >    der mangler billeder
 
 **3. Push ændringer**
