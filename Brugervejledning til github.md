@@ -1,7 +1,5 @@
 # Brugervejledning til github
 
-
-
 ## Værktøjer
 
 **Github desktop** https://desktop.github.com/ Bruges til at få sine ændringer op til github og hente nyeste version (installer)
@@ -12,10 +10,7 @@
 
 **Html-to-markdown** (Tag en del af en html fil og ændre til markdown, men der er noget som skal justeres efterfølgende (fx. billeder, links). https://htmlmarkdown.com/)
 
-
 ## Guides
-
-
 
 ### Invitation til repository
 
@@ -59,8 +54,6 @@ administrator af repositoryet).
 Bruger skal minimum have
 write tilladelse for at push til main repo. Alle kan lave et pull
 request som en admin så kan tage stilling til
-
-
 
 ### Hvordan oprettes tags og releases.
 
@@ -142,11 +135,8 @@ vejledning:
 2. **Publicer releasen**:
    
    - Når alle oplysninger er udfyldt, klik på `Publish release` knappen.
-     
 
 ### Hvordan Lægges rettelser på github
-
-
 
 ### Merge og håndtering af konflikter
 
@@ -190,8 +180,6 @@ hvilke ændringer der skal beholdes.
 
 4. **Commit de løste konflikter** ved at skrive en
    commit-besked og klikke på "Commit merge".
-   
-   
 
 ### Markdown editor (MarkText)
 
@@ -203,13 +191,38 @@ hvilke ændringer der skal beholdes.
 
 Merge og håndtering af konflikter
 
-
-
 ### Issues og krydshenvisninger guide
+
+Hvordan bruges issue-funktionen i GitHub i public repositories
+· Den interne proces – fra issue til rettelse
+· Notifikation vedr. issues
+
+#### Issues
+
+Når et nyt issue oprettes på GitHub, kan forskellige brugere modtage notifikationer baseret på deres involvering og indstillinger. Her er en oversigt over, hvem der typisk får notifikationer:
+
+1. **Repository Ejer og Collaborators**: Alle, der har write eller administrativ adgang til repository, vil som standard modtage notifikationer om nye issues, medmindre de specifikt har slået dem fra.
+
+2. **Watchers**: Brugere, der har valgt at "watch" repository, vil modtage notifikationer om alle aktiviteter, herunder nye issues. Der er forskellige niveauer af watching:
+   
+   - **Watching**: Modtager notifikationer om alle aktiviteter.
+   - **Not watching**: Modtager kun notifikationer, når de bliver nævnt direkte eller involveret i en tråd.
+   - **Ignoring**: Modtager ingen notifikationer overhovedet.
+
+3. **Nævnte Brugere**: Hvis en bruger bliver nævnt i et issue ved hjælp af @-mention (f.eks. @username), vil denne bruger få en notifikation.
+
+4. **Tidligere Deltagere**: Brugere, der tidligere har deltaget i en tråd (f.eks. kommenteret på et tidligere issue eller pull request), vil typisk modtage notifikationer om nye kommentarer eller ændringer.
+
+5. **Team Mention**: Hvis et helt team nævnes (f.eks. @org/team-name), vil alle medlemmer af dette team modtage en notifikation.
+
+Indstillinger for notifikationer kan tilpasses af den enkelte bruger i deres GitHub-indstillinger, hvor de kan vælge præferencer for, hvordan og hvornår de vil modtage notifikationer.
+
+
+
+#### krydshenvisninger
 
 For at lave en krydshenvisning til en issue, pull request eller commit på
 GitHub, kan du bruge deres nummer eller hash, som følger:
-
 
 - **Issues:** Brug `#` efterfulgt af issue-nummeret.
   
@@ -237,7 +250,6 @@ Hvis du vil krydshenvise til en specifik placering i en
 Markdown-fil, som f.eks. en bestemt sektion, en tabel, eller en
 kodeblok:
 
-
 **Tekstlokation:**
 
 På github naviger ind på en fil som du skal henvise til og gøre som på billedet
@@ -246,14 +258,12 @@ På github naviger ind på en fil som du skal henvise til og gøre som på bille
 
 Indsæt derefter i din kommentar nye issue eller andre steder på github
 
-
 #### Krydshenvisninger i Kommentarer og Pull
 
 Disse krydshenvisninger fungerer i kommentarer, issues, pull
 requests og pull request-beskrivelser på GitHub. Når du bruger
 disse links, vil GitHub automatisk generere et klikbart link til det
 pågældende issue, pull request eller fillokation.
-
 
 **Eksempel på Krydshenvisning**
 
@@ -274,3 +284,8 @@ forbinde forskellige elementer og filer på GitHub, hvilket gør det
 lettere for brugerne at navigere og finde relevant information.
 
 
+#### Ændre notifikationer på et repository
+
+Naviger til det repository, hvor du ønsker at ændre notifikationsindstillingerne.
+
+![Ændre notifikationer på et repository.png](assets/3034c681dc9cc668c15b5e2778a80515a71e7c19.png)
