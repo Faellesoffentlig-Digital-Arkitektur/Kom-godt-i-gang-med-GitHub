@@ -55,6 +55,145 @@ Bruger skal minimum have
 write tilladelse for at push til main repo. Alle kan lave et pull
 request som en admin så kan tage stilling til
 
+
+
+### Markdown editor (MarkText)
+
+#### Tilføj billeder, ved nyt produkt eller rediger produkt
+
+1. Oppe i venstre hjørne klik på de 3 streger og vælg "File" - > Preferences -> image
+2. Under Default action.. Vælg: "Copy image to designated relative assets or global local folder"
+3. Klik "Prefer relative assets folder" som den er sat til (grøn).
+4. Drag 'n' drop nu billeder fra assets folderen til de steder hvor der mangler billeder
+
+Merge og håndtering af konflikter
+
+
+
+### Hvordan Lægges rettelser på github
+
+#### Merge (flet flere filer sammen)
+
+##### Merge branches ved hjælp af GitHub Desktop:
+
+###### Trin-for-trin vejledning
+
+1. **Åbn GitHub Desktop** og sørg for, at du har
+   klonet det repository, du vil arbejde på.
+
+2. **Vælg den branch**, du ønsker at merge
+   ændringerne til. Dette er typisk `main` eller en anden primær branch. Du kan vælge branch i øverste
+   venstre hjørne af GitHub Desktop-vinduet.
+
+3. **Klik på "Branch"** i menulinjen og
+   vælg derefter "Merge into current branch...".
+
+4. **Vælg den branch**, du vil merge fra, i den
+   liste, der vises. Dette vil typisk være den feature branch, du har
+   arbejdet på.
+
+5. **Klik på "Merge [branch name] into [current
+   branch]"**. GitHub Desktop vil nu forsøge at merge
+   ændringerne.
+
+##### Merge branches ved hjælp af GitHub.com:
+
+1. **Naviger til dit repository**: Åbn GitHub.com og gå til det repository, hvor du ønsker at merge branches.
+
+2. **Gå til "Pull requests"**: Klik på fanen "Pull requests" øverst i menuen. Her kan du se alle åbne og lukkede pull requests.
+
+3. **Opret en ny pull request**: Klik på knappen "New pull request". Du vil nu blive præsenteret for en skærm, hvor du kan vælge dine branches.
+
+4. **Vælg basen og sammenfletningsbrancher**:
+   
+   - **Base branch**: Dette er den branch, du ønsker at merge dine ændringer ind i (ofte `main` eller `master`).
+   - **Compare branch**: Dette er den branch, hvor dine ændringer er (den du ønsker at merge fra).
+
+5. **Gennemgå ændringer**: GitHub viser nu en oversigt over ændringerne, der vil blive lavet, når du merger. Tag dig tid til at gennemgå dem og sikre dig, at alt ser korrekt ud.
+
+6. **Opret pull request**: Klik på knappen "Create pull request". Her kan du tilføje en titel og en beskrivelse for pull requesten, hvilket kan hjælpe med at kommunikere, hvad der bliver ændret og hvorfor.
+
+7. **Få feedback og gennemgå**: Hvis du arbejder sammen med et team, kan du nu få feedback. Andre bidragsydere kan kommentere og anmode om ændringer. Når alle er tilfredse med ændringerne, kan pull requesten blive godkendt.
+
+8. **Merge pull request**: Når pull requesten er godkendt og klar til at blive merged, klik på knappen "Merge pull request". Bekræft handlingen ved at klikke på "Confirm merge". Dette vil integrere de ændringer, der er lavet i din sammenfletningsbranch, ind i basebranchen.
+
+9. **Slet branch (valgfrit)**: Efter merge kan du vælge at slette den oprindelige branch, hvis den ikke længere er nødvendig. Dette gøres normalt via en knap, der vises efter du har merged.
+
+10. **Synkroniser dit lokale repository**: Husk at opdatere dit lokale repository med de nyeste ændringer ved at køre `git pull`
+
+### Håndtering af merge konflikter
+
+Hvis der opstår merge-konflikter, vil GitHub Desktop informere
+dig om det. Du kan så åbne den konfliktfyldte fil ved at klikke på
+filnavnet i GitHub Desktop og manuelt rette konflikten ved at vælge
+hvilke ændringer der skal beholdes.
+
+1. **Klik på den konfliktfyldte fil** i listen
+   over konflikter.
+
+2. **Rediger filen** for at løse konflikten. Dette
+   kan gøres direkte i GitHub Desktop eller ved at åbne filen i din
+   foretrukne teksteditor.
+
+3. Når konflikten er løst, **marker konflikten som løst** i GitHub Desktop ved at klikke på "Mark as resolved".
+
+4. **Commit de løste konflikter** ved at skrive en
+   commit-besked og klikke på "Commit merge".
+
+### Sådan Konfigurerer du Krav om Review før Merge
+
+1. **Log ind på GitHub**: Gå til [GitHub](https://github.com) og log ind på din konto.
+
+2. **Naviger til dit Repository**:
+   
+   - Gå til det repository, hvor du vil konfigurere branch protection rules.
+
+3. **Gå til Repository-Indstillinger**:
+   
+   - Klik på fanen "Settings" øverst til højre på repository-siden.
+
+4. **Find Branches-sektionen**:
+   
+   - Klik på "Branches" i menuen til venstre under sektionen "Code and automation".
+
+5. **Opret eller Rediger Branch Protection Rules**:
+   
+   - Under sektionen "Branch protection rules", klik på "Add classic branch protection rule" for at oprette en ny regel eller "Edit" ved siden af en eksisterende regel, hvis du allerede har en regel, du vil ændre.
+
+6. **Konfigurer Regelindstillinger**:
+   
+   - I feltet "Branch name pattern", indtast navnet på den branch, du vil beskytte. For eksempel, for at beskytte `main` branch, skriv `main`.
+
+7. **Aktivér Review Krav**:
+   
+   - Under sektionen "Require pull request reviews before merging", marker boksen "Require pull request reviews before merging".
+   - Du kan vælge yderligere indstillinger:
+     - **Required approving reviewers**: Angiv, hvor mange godkendende reviews der er nødvendige, før en pull request kan merges.
+     - **Dismiss stale pull request approvals when new commits are pushed**: Kræver, at godkendelser af pull requests bliver fjernet, hvis der tilføjes nye commits.
+     - **Require review from Code Owners**: Hvis du har konfigureret produkt ejer i dit repository, kan du kræve, at en produkt ejer skal godkende ændringer.
+
+8. **Gem Ændringerne**:
+   
+   - Klik på "Crete" eller "Save changes" for at anvende dine branch protection regler.
+
+#### Eksempler på Regelindstillinger
+
+- **"Require pull request reviews before merging"**: Hvis du markerer denne mulighed, kræves det, at alle pull requests skal gennemgås og godkendes af en eller flere reviewers, før de kan merges.
+- **"Required approving reviewers"**: Hvis du sætter dette til 2, kræves det, at 2 personer skal godkende pull requesten, før den kan merges.
+
+**Overvejelser**
+
+- **Branch Protection Rules** gælder kun for grene, der matcher det angivne mønster. Sørg for at konfigurere regler for alle vigtige grene, såsom `main` eller `develop`, afhængigt af din arbejdsproces.
+- **Code Owners**: Hvis du har specificerede code owners, kan du kræve, at deres godkendelse er nødvendig, hvilket er nyttigt for teams, hvor bestemte medlemmer er ansvarlige for specifikke områder af koden.
+
+Ved at konfigurere disse regler kan du sikre, at alle ændringer gennemgås af relevante teammedlemmer, hvilket hjælper med at opretholde høj kodekvalitet og samarbejde i dit projekt.
+
+#### Administrator - med eller uden ekstra reviewer indstilling
+
+En administrator kan normalt review sin egen pull request, hvis man klikker "Do not allow bypassing the above settings" så skal admins pull request over i review hos en anden bruger
+
+
+
 ### Hvordan oprettes tags og releases.
 
 **(LINK TIL Release procedure for produkter)**
@@ -120,162 +259,6 @@ vejledning:
 2. **Publicer releasen**:
    
    - Når alle oplysninger er udfyldt, klik på `Publish release` knappen.
-
-### Hvordan finder man gamle versioner af et produkt (releases)
-
-- Naviger til det repository, hvor du ønsker at finde en anden version .
-
-- Klik på pilen til højre for main
-
-- Klik Tags
-
-- klik på den version (release) som du skal bruge
-
-![Hvordan finder man gamle versioner af et produkt.png](assets/75b98b4913536ef88bec803d0aefcfdbc9aadb3e.png)
-
-### Hvordan Lægges rettelser på github
-
-#### Merge (flet flere filer sammen)
-
-##### Merge branches ved hjælp af GitHub Desktop:
-
-###### Trin-for-trin vejledning
-
-1. **Åbn GitHub Desktop** og sørg for, at du har
-   klonet det repository, du vil arbejde på.
-
-2. **Vælg den branch**, du ønsker at merge
-   ændringerne til. Dette er typisk `main` eller en anden primær branch. Du kan vælge branch i øverste
-   venstre hjørne af GitHub Desktop-vinduet.
-
-3. **Klik på "Branch"** i menulinjen og
-   vælg derefter "Merge into current branch...".
-
-4. **Vælg den branch**, du vil merge fra, i den
-   liste, der vises. Dette vil typisk være den feature branch, du har
-   arbejdet på.
-
-5. **Klik på "Merge [branch name] into [current
-   branch]"**. GitHub Desktop vil nu forsøge at merge
-   ændringerne. 
-
-
-
-##### Merge branches ved hjælp af GitHub.com:
-
-1. **Naviger til dit repository**: Åbn GitHub.com og gå til det repository, hvor du ønsker at merge branches.
-
-2. **Gå til "Pull requests"**: Klik på fanen "Pull requests" øverst i menuen. Her kan du se alle åbne og lukkede pull requests.
-
-3. **Opret en ny pull request**: Klik på knappen "New pull request". Du vil nu blive præsenteret for en skærm, hvor du kan vælge dine branches.
-
-4. **Vælg basen og sammenfletningsbrancher**:
-   
-   - **Base branch**: Dette er den branch, du ønsker at merge dine ændringer ind i (ofte `main` eller `master`).
-   - **Compare branch**: Dette er den branch, hvor dine ændringer er (den du ønsker at merge fra).
-
-5. **Gennemgå ændringer**: GitHub viser nu en oversigt over ændringerne, der vil blive lavet, når du merger. Tag dig tid til at gennemgå dem og sikre dig, at alt ser korrekt ud.
-
-6. **Opret pull request**: Klik på knappen "Create pull request". Her kan du tilføje en titel og en beskrivelse for pull requesten, hvilket kan hjælpe med at kommunikere, hvad der bliver ændret og hvorfor.
-
-7. **Få feedback og gennemgå**: Hvis du arbejder sammen med et team, kan du nu få feedback. Andre bidragsydere kan kommentere og anmode om ændringer. Når alle er tilfredse med ændringerne, kan pull requesten blive godkendt.
-
-8. **Merge pull request**: Når pull requesten er godkendt og klar til at blive merged, klik på knappen "Merge pull request". Bekræft handlingen ved at klikke på "Confirm merge". Dette vil integrere de ændringer, der er lavet i din sammenfletningsbranch, ind i basebranchen.
-
-9. **Slet branch (valgfrit)**: Efter merge kan du vælge at slette den oprindelige branch, hvis den ikke længere er nødvendig. Dette gøres normalt via en knap, der vises efter du har merged.
-
-10. **Synkroniser dit lokale repository**: Husk at opdatere dit lokale repository med de nyeste ændringer ved at køre `git pull`
-
-
-
-### Håndtering af merge konflikter
-
-Hvis der opstår merge-konflikter, vil GitHub Desktop informere
-dig om det. Du kan så åbne den konfliktfyldte fil ved at klikke på
-filnavnet i GitHub Desktop og manuelt rette konflikten ved at vælge
-hvilke ændringer der skal beholdes.
-
-1. **Klik på den konfliktfyldte fil** i listen
-   over konflikter.
-
-2. **Rediger filen** for at løse konflikten. Dette
-   kan gøres direkte i GitHub Desktop eller ved at åbne filen i din
-   foretrukne teksteditor.
-
-3. Når konflikten er løst, **marker konflikten som løst** i GitHub Desktop ved at klikke på "Mark as resolved".
-
-4. **Commit de løste konflikter** ved at skrive en
-   commit-besked og klikke på "Commit merge".
-
-
-
-### Sådan Konfigurerer du Krav om Review før Merge
-
-1. **Log ind på GitHub**: Gå til [GitHub](https://github.com) og log ind på din konto.
-
-2. **Naviger til dit Repository**:
-   
-   - Gå til det repository, hvor du vil konfigurere branch protection rules.
-
-3. **Gå til Repository-Indstillinger**:
-   
-   - Klik på fanen "Settings" øverst til højre på repository-siden.
-
-4. **Find Branches-sektionen**:
-   
-   - Klik på "Branches" i menuen til venstre under sektionen "Code and automation".
-
-5. **Opret eller Rediger Branch Protection Rules**:
-   
-   - Under sektionen "Branch protection rules", klik på "Add classic branch protection rule" for at oprette en ny regel eller "Edit" ved siden af en eksisterende regel, hvis du allerede har en regel, du vil ændre.
-
-6. **Konfigurer Regelindstillinger**:
-   
-   - I feltet "Branch name pattern", indtast navnet på den branch, du vil beskytte. For eksempel, for at beskytte `main` branch, skriv `main`.
-
-7. **Aktivér Review Krav**:
-   
-   - Under sektionen "Require pull request reviews before merging", marker boksen "Require pull request reviews before merging".
-   - Du kan vælge yderligere indstillinger:
-     - **Required approving reviewers**: Angiv, hvor mange godkendende reviews der er nødvendige, før en pull request kan merges.
-     - **Dismiss stale pull request approvals when new commits are pushed**: Kræver, at godkendelser af pull requests bliver fjernet, hvis der tilføjes nye commits.
-     - **Require review from Code Owners**: Hvis du har konfigureret produkt ejer i dit repository, kan du kræve, at en produkt ejer skal godkende ændringer.
-
-8. **Gem Ændringerne**:
-   
-   - Klik på "Crete" eller "Save changes" for at anvende dine branch protection regler.
-     
-
-#### Eksempler på Regelindstillinger
-
-- **"Require pull request reviews before merging"**: Hvis du markerer denne mulighed, kræves det, at alle pull requests skal gennemgås og godkendes af en eller flere reviewers, før de kan merges.
-- **"Required approving reviewers"**: Hvis du sætter dette til 2, kræves det, at 2 personer skal godkende pull requesten, før den kan merges.
-
-**Overvejelser**
-
-- **Branch Protection Rules** gælder kun for grene, der matcher det angivne mønster. Sørg for at konfigurere regler for alle vigtige grene, såsom `main` eller `develop`, afhængigt af din arbejdsproces.
-- **Code Owners**: Hvis du har specificerede code owners, kan du kræve, at deres godkendelse er nødvendig, hvilket er nyttigt for teams, hvor bestemte medlemmer er ansvarlige for specifikke områder af koden.
-
-Ved at konfigurere disse regler kan du sikre, at alle ændringer gennemgås af relevante teammedlemmer, hvilket hjælper med at opretholde høj kodekvalitet og samarbejde i dit projekt.
-
-
-
-#### Administrator - med eller uden ekstra reviewer indstilling
-
-En administrator kan normalt review sin egen pull request, hvis man klikker "Do not allow bypassing the above settings" så skal admins pull request over i review hos en anden bruger
-
-
-![Do not allow bypassing the above settings.png](assets/b6e98672c15665d2bf6622e5b66688e1772c2d1e.png)
-
-### Markdown editor (MarkText)
-
-#### Tilføj billeder, ved nyt produkt eller rediger produkt
-
-1. Oppe i venstre hjørne klik på de 3 streger og vælg "File" - > Preferences -> image 
-2. Klik "Prefer relative assets folder" som den er sat til (grøn).
-3. Drag 'n' drop nu billeder fra assets folderen til de steder hvor der mangler  billeder
-
-Merge og håndtering af konflikter
 
 ### Issues og krydshenvisninger guide
 
@@ -374,3 +357,19 @@ lettere for brugerne at navigere og finde relevant information.
 - Klik på pilen til højre for unwatch
 
 ![Ændre notifikationer på et repository.png](assets/3034c681dc9cc668c15b5e2778a80515a71e7c19.png)
+
+### 
+
+### Hvordan finder man gamle versioner af et produkt (releases)
+
+- Naviger til det repository, hvor du ønsker at finde en anden version .
+
+- Klik på pilen til højre for main
+
+- Klik Tags
+
+- klik på den version (release) som du skal bruge
+
+
+
+![Hvordan finder man gamle versioner af et produkt.png](assets/75b98b4913536ef88bec803d0aefcfdbc9aadb3e.png)
