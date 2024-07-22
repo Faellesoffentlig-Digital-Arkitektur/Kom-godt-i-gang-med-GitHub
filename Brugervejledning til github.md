@@ -286,6 +286,8 @@ lettere for brugerne at navigere og finde relevant information.
 
 #### Ændre e-mail notifikationer på et repository
 
-Naviger til det repository, hvor du ønsker at ændre notifikationsindstillingerne.
+- Naviger til det repository, hvor du ønsker at ændre notifikationsindstillingerne.
+
+- Klik på pilen til højre for unwatch
 
 ![Ændre notifikationer på et repository.png](assets/3034c681dc9cc668c15b5e2778a80515a71e7c19.png)
