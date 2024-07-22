@@ -137,9 +137,9 @@ vejledning:
 
 #### Merge (flet flere filer sammen)
 
-For at **merge** branches ved hjælp af GitHub Desktop, følg disse trin:
+##### Merge branches ved hjælp af GitHub Desktop:
 
-##### Trin-for-trin vejledning
+###### Trin-for-trin vejledning
 
 1. **Åbn GitHub Desktop** og sørg for, at du har
    klonet det repository, du vil arbejde på.
@@ -158,6 +158,35 @@ For at **merge** branches ved hjælp af GitHub Desktop, følg disse trin:
 5. **Klik på "Merge [branch name] into [current
    branch]"**. GitHub Desktop vil nu forsøge at merge
    ændringerne. 
+
+
+
+##### Merge branches ved hjælp af GitHub.com:
+
+1. **Naviger til dit repository**: Åbn GitHub.com og gå til det repository, hvor du ønsker at merge branches.
+
+2. **Gå til "Pull requests"**: Klik på fanen "Pull requests" øverst i menuen. Her kan du se alle åbne og lukkede pull requests.
+
+3. **Opret en ny pull request**: Klik på knappen "New pull request". Du vil nu blive præsenteret for en skærm, hvor du kan vælge dine branches.
+
+4. **Vælg basen og sammenfletningsbrancher**:
+   
+   - **Base branch**: Dette er den branch, du ønsker at merge dine ændringer ind i (ofte `main` eller `master`).
+   - **Compare branch**: Dette er den branch, hvor dine ændringer er (den du ønsker at merge fra).
+
+5. **Gennemgå ændringer**: GitHub viser nu en oversigt over ændringerne, der vil blive lavet, når du merger. Tag dig tid til at gennemgå dem og sikre dig, at alt ser korrekt ud.
+
+6. **Opret pull request**: Klik på knappen "Create pull request". Her kan du tilføje en titel og en beskrivelse for pull requesten, hvilket kan hjælpe med at kommunikere, hvad der bliver ændret og hvorfor.
+
+7. **Få feedback og gennemgå**: Hvis du arbejder sammen med et team, kan du nu få feedback. Andre bidragsydere kan kommentere og anmode om ændringer. Når alle er tilfredse med ændringerne, kan pull requesten blive godkendt.
+
+8. **Merge pull request**: Når pull requesten er godkendt og klar til at blive merged, klik på knappen "Merge pull request". Bekræft handlingen ved at klikke på "Confirm merge". Dette vil integrere de ændringer, der er lavet i din sammenfletningsbranch, ind i basebranchen.
+
+9. **Slet branch (valgfrit)**: Efter merge kan du vælge at slette den oprindelige branch, hvis den ikke længere er nødvendig. Dette gøres normalt via en knap, der vises efter du har merged.
+
+10. **Synkroniser dit lokale repository**: Husk at opdatere dit lokale repository med de nyeste ændringer ved at køre `git pull`
+
+
 
 ### Håndtering af merge konflikter
 
