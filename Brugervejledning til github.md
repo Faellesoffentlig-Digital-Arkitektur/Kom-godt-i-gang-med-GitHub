@@ -57,21 +57,6 @@ request som en admin så kan tage stilling til
 
 ### Hvordan oprettes tags og releases.
 
-<title></title>
-
-<style type="text/css">
- @page { size: 21cm 29.7cm; margin: 2cm }
- h3 { margin-top: 0.25cm; margin-bottom: 0.21cm; background: transparent; page-break-after: avoid }
- h3.western { font-family: "Liberation Serif", serif; font-size: 14pt; font-weight: bold }
- h3.cjk { font-family: "NSimSun"; font-size: 14pt; font-weight: bold }
- h3.ctl { font-family: "Lucida Sans"; font-size: 14pt; font-weight: bold }
- p { line-height: 115%; margin-bottom: 0.25cm; background: transparent }
- code.western { font-family: "Liberation Mono", monospace }
- code.cjk { font-family: "NSimSun", monospace }
- code.ctl { font-family: "Liberation Mono", monospace }
- strong { font-weight: bold }
- </style>
-
 **(LINK TIL Release procedure for produkter)**
 
 At lave tags i GitHub Desktop og oprette en release i GitHub.com
@@ -135,6 +120,22 @@ vejledning:
 2. **Publicer releasen**:
    
    - Når alle oplysninger er udfyldt, klik på `Publish release` knappen.
+
+
+
+### Hvordan finder man gamle versioner af et produkt (releases)
+
+- Naviger til det repository, hvor du ønsker at finde en anden version .
+
+- Klik på pilen til højre for main
+
+- Klik Tags
+
+- klik på den version (release) som du skal bruge
+
+![Hvordan finder man gamle versioner af et produkt.png](assets/75b98b4913536ef88bec803d0aefcfdbc9aadb3e.png)
+
+
 
 ### Hvordan Lægges rettelser på github
 
@@ -217,8 +218,6 @@ Når et nyt issue oprettes på GitHub, kan forskellige brugere modtage notifikat
 
 Indstillinger for notifikationer kan tilpasses af den enkelte bruger i deres GitHub-indstillinger, hvor de kan vælge præferencer for, hvordan og hvornår de vil modtage notifikationer.
 
-
-
 #### krydshenvisninger
 
 For at lave en krydshenvisning til en issue, pull request eller commit på
@@ -282,7 +281,6 @@ linje i README.md-filen.
 Ved at bruge disse krydshenvisningsmetoder kan du effektivt
 forbinde forskellige elementer og filer på GitHub, hvilket gør det
 lettere for brugerne at navigere og finde relevant information.
-
 
 #### Ændre e-mail notifikationer på et repository
 
