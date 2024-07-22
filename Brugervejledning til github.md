@@ -284,7 +284,7 @@ forbinde forskellige elementer og filer på GitHub, hvilket gør det
 lettere for brugerne at navigere og finde relevant information.
 
 
-#### Ændre notifikationer på et repository
+#### Ændre e-mail notifikationer på et repository
 
 Naviger til det repository, hvor du ønsker at ændre notifikationsindstillingerne.
 
