@@ -69,6 +69,10 @@ request som en admin så kan tage stilling til
 Merge og håndtering af konflikter
 
 
+<video width="320" height="240" controls>
+  <source src="https://drive.google.com/file/d/1GbOIEaG5XuC-pxHF0RTLhs2c5YbAh7wd/view" type="video/mp4">
+  Din browser understøtter ikke videoafspilning.
+</video>
 
 ### Hvordan Lægges rettelser på github
 
