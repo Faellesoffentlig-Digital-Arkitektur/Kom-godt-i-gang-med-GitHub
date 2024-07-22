@@ -236,6 +236,8 @@ Ved at konfigurere disse regler kan du sikre, at alle ændringer gennemgås af r
 En administrator kan normalt review sin egen pull request, hvis man klikker "Do not allow bypassing the above settings" så skal admins pull request over i review hos en anden bruger
 
 
+![Do not allow bypassing the above settings.png](assets/b6e98672c15665d2bf6622e5b66688e1772c2d1e.png)
+
 ### Markdown editor (MarkText)
 
 #### Tilføj billeder, ved nyt produkt eller rediger produkt
