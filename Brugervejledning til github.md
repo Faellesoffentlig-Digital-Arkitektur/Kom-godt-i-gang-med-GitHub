@@ -215,6 +215,7 @@ hvilke ændringer der skal beholdes.
 8. **Gem Ændringerne**:
    
    - Klik på "Crete" eller "Save changes" for at anvende dine branch protection regler.
+     
 
 ##### Eksempler på Regelindstillinger
 
@@ -230,6 +231,9 @@ Ved at konfigurere disse regler kan du sikre, at alle ændringer gennemgås af r
 
 
 
+##### Administrator (med eller uden ekstra reviewer)
+
+En administrator kan normalt review sin egen pull request, hvis man klikke "" så skal admins pull request over i review over for en anden bruger
 
 
 ### Markdown editor (MarkText)
