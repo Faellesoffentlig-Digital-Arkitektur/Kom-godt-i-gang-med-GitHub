@@ -72,6 +72,10 @@ Merge og håndtering af konflikter
 
 ### Hvordan Lægges rettelser på github
 
+#### Push to main (direkte til offentligt produktet)
+
+Hvis du er admin og ikke skal lave en branch før du pusher dine ændringer så er det nemt med Github desktop. Tryk commit nede til venstre med en besked og push kommer frem i midten
+
 #### Merge (flet flere filer sammen)
 
 ##### Merge branches ved hjælp af GitHub Desktop:
