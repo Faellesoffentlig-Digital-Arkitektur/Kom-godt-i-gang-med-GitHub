@@ -157,11 +157,30 @@ For at **merge** branches ved hjælp af GitHub Desktop, følg disse trin:
 
 5. **Klik på "Merge [branch name] into [current
    branch]"**. GitHub Desktop vil nu forsøge at merge
-   ændringerne.
+   ændringerne. 
+
+### Håndtering af merge konflikter
+
+Hvis der opstår merge-konflikter, vil GitHub Desktop informere
+dig om det. Du kan så åbne den konfliktfyldte fil ved at klikke på
+filnavnet i GitHub Desktop og manuelt rette konflikten ved at vælge
+hvilke ændringer der skal beholdes.
+
+1. **Klik på den konfliktfyldte fil** i listen
+   over konflikter.
+
+2. **Rediger filen** for at løse konflikten. Dette
+   kan gøres direkte i GitHub Desktop eller ved at åbne filen i din
+   foretrukne teksteditor.
+
+3. Når konflikten er løst, **marker konflikten som løst** i GitHub Desktop ved at klikke på "Mark as resolved".
+
+4. **Commit de løste konflikter** ved at skrive en
+   commit-besked og klikke på "Commit merge".
 
 
 
-#### Sådan Konfigurerer du Krav om Review før Merge
+### Sådan Konfigurerer du Krav om Review før Merge
 
 1. **Log ind på GitHub**: Gå til [GitHub](https://github.com) og log ind på din konto.
 
@@ -209,26 +228,9 @@ For at **merge** branches ved hjælp af GitHub Desktop, følg disse trin:
 
 Ved at konfigurere disse regler kan du sikre, at alle ændringer gennemgås af relevante teammedlemmer, hvilket hjælper med at opretholde høj kodekvalitet og samarbejde i dit projekt.
 
-### 
 
-#### Håndtering af merge konflikter
 
-Hvis der opstår merge-konflikter, vil GitHub Desktop informere
-dig om det. Du kan så åbne den konfliktfyldte fil ved at klikke på
-filnavnet i GitHub Desktop og manuelt rette konflikten ved at vælge
-hvilke ændringer der skal beholdes.
 
-1. **Klik på den konfliktfyldte fil** i listen
-   over konflikter.
-
-2. **Rediger filen** for at løse konflikten. Dette
-   kan gøres direkte i GitHub Desktop eller ved at åbne filen i din
-   foretrukne teksteditor.
-
-3. Når konflikten er løst, **marker konflikten som løst** i GitHub Desktop ved at klikke på "Mark as resolved".
-
-4. **Commit de løste konflikter** ved at skrive en
-   commit-besked og klikke på "Commit merge".
 
 ### Markdown editor (MarkText)
 
