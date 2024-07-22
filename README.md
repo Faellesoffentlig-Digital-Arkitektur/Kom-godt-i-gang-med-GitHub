@@ -6,17 +6,17 @@ Vejledninger i, hvordan man bruger GitHub.
 
 - [Fællesoffentlig rammearkitektur](https://github.com/Faellesoffentlig-Digital-Arkitektur/Faellesoffentlig-rammearkitektur)
 
-- Hvidbog om fællesoffentlig digital arkitektur
+- [Hvidbog om fællesoffentlig digital arkitektur](https://github.com/Faellesoffentlig-Digital-Arkitektur/Hvidbog-om-faellesoffentlig-digital-arkitektur)
 
-- Referencearkitektur for brugerstyring
+- [Referencearkitektur for brugerstyring](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-brugerstyring)
 
-- Referencearkitektur for deling af data og dokumenter
+- [Referencearkitektur for deling af data og dokumenter](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter)
 
-- Referencearkitektur for selvbetjening
+- [Referencearkitektur for selvbetjening](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-selvbetjening)
 
-- Referencearkitektur for tværgående digitalt overblik for borgere og virksomheder 
+- [Referencearkitektur for tværgående digitalt overblik for borgere og virksomheder](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder)
 
-- Referencearkitektur for observation og måling
+- [Referencearkitektur for observation og måling](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-observation-og-maaling)
 
 - Vejledning og retningslinjer for arkitekturreviews
 
@@ -48,7 +48,7 @@ Vejledninger i, hvordan man bruger GitHub.
 
 - Standard for beskrivelse af IT-systemer
 
-- Anvendelsesprofil for organisation
+- [Anvendelsesprofil for organisation](https://github.com/Faellesoffentlig-Digital-Arkitektur/Anvendelsesprofil-for-organisation)
 
 - Retningslinjer for stabile HTTP-URIer
 
