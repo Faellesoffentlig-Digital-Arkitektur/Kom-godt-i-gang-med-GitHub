@@ -135,7 +135,7 @@ vejledning:
 
 ### Hvordan Lægges rettelser på github
 
-#### Merge og håndtering af konflikter
+#### Merge (flet flere filer sammen)
 
 For at **merge** branches ved hjælp af GitHub Desktop, følg disse trin:
 
@@ -217,7 +217,7 @@ hvilke ændringer der skal beholdes.
    - Klik på "Crete" eller "Save changes" for at anvende dine branch protection regler.
      
 
-##### Eksempler på Regelindstillinger
+#### Eksempler på Regelindstillinger
 
 - **"Require pull request reviews before merging"**: Hvis du markerer denne mulighed, kræves det, at alle pull requests skal gennemgås og godkendes af en eller flere reviewers, før de kan merges.
 - **"Required approving reviewers"**: Hvis du sætter dette til 2, kræves det, at 2 personer skal godkende pull requesten, før den kan merges.
@@ -231,9 +231,9 @@ Ved at konfigurere disse regler kan du sikre, at alle ændringer gennemgås af r
 
 
 
-##### Administrator (med eller uden ekstra reviewer)
+#### Administrator - med eller uden ekstra reviewer indstilling
 
-En administrator kan normalt review sin egen pull request, hvis man klikke "" så skal admins pull request over i review over for en anden bruger
+En administrator kan normalt review sin egen pull request, hvis man klikker "Do not allow bypassing the above settings" så skal admins pull request over i review hos en anden bruger
 
 
 ### Markdown editor (MarkText)
