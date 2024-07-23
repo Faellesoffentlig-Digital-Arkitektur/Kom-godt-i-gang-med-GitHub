@@ -22,7 +22,7 @@ Vejledninger i, hvordan man bruger GitHub.
 
 - [Retningslinjer for formidling og dokumentation af arkitektur digitaliseringsprojekter](https://github.com/Faellesoffentlig-Digital-Arkitektur/Retningslinjer-for-formidling-og-dokumentation-af-arkitektur-i-digitaliseringsprojekter)
 
-- Fælles krav til gode brugeroplevelser
+- [Fælles krav til gode brugeroplevelser](https://github.com/Faellesoffentlig-Digital-Arkitektur/Faelles-krav-til-gode-brugeroplevelser)
 
 - Vejledning i genbrug af data i selvbetjeningsløsninger
 
