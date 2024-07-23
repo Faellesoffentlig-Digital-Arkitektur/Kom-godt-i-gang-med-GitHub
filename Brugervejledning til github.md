@@ -10,6 +10,8 @@
 
 **Html-to-markdown** (Tag en del af en html fil og ændre til markdown, men der er noget som skal justeres efterfølgende (fx. billeder, links). https://htmlmarkdown.com/)
 
+**Word fil til markdown** - https://mconverter.eu/convert/docx/md/
+
 ## Guides
 
 ### Invitation til repository
@@ -54,8 +56,6 @@ administrator af repositoryet).
 Bruger skal minimum have
 write tilladelse for at push til main repo. Alle kan lave et pull
 request som en admin så kan tage stilling til
-
-
 
 ### Markdown editor (MarkText)
 
@@ -193,8 +193,6 @@ Ved at konfigurere disse regler kan du sikre, at alle ændringer gennemgås af r
 #### Administrator - med eller uden ekstra reviewer indstilling
 
 En administrator kan normalt review sin egen pull request, hvis man klikker "Do not allow bypassing the above settings" så skal admins pull request over i review hos en anden bruger
-
-
 
 ### Hvordan oprettes tags og releases.
 
@@ -371,7 +369,5 @@ lettere for brugerne at navigere og finde relevant information.
 - Klik Tags
 
 - klik på den version (release) som du skal bruge
-
-
 
 ![Hvordan finder man gamle versioner af et produkt.png](assets/75b98b4913536ef88bec803d0aefcfdbc9aadb3e.png)
