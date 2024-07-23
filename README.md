@@ -18,9 +18,9 @@ Vejledninger i, hvordan man bruger GitHub.
 
 - [Referencearkitektur for observation og måling](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-observation-og-maaling)
 
-- Vejledning og retningslinjer for arkitekturreviews
+- [Vejledning og retningslinjer for arkitekturreviews](https://github.com/Faellesoffentlig-Digital-Arkitektur/Vejledning-og-retningslinjer-for-arkitekturreviews)
 
-- Retningslinjer for formidling og dokumentation af arkitektur digitaliseringsprojekter
+- [Retningslinjer for formidling og dokumentation af arkitektur digitaliseringsprojekter](https://github.com/Faellesoffentlig-Digital-Arkitektur/Retningslinjer-for-formidling-og-dokumentation-af-arkitektur-i-digitaliseringsprojekter)
 
 - Fælles krav til gode brugeroplevelser
 
