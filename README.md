@@ -24,9 +24,9 @@ Vejledninger i, hvordan man bruger GitHub.
 
 - [Fælles krav til gode brugeroplevelser](https://github.com/Faellesoffentlig-Digital-Arkitektur/Faelles-krav-til-gode-brugeroplevelser)
 
-- Vejledning i genbrug af data i selvbetjeningsløsninger
+- [Vejledning i genbrug af data i selvbetjeningsløsninger](https://github.com/Faellesoffentlig-Digital-Arkitektur/Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger)
 
-- Erfaringsopsamling om softwarerobotter og brugerstyring
+- [Erfaringsopsamling om softwarerobotter og brugerstyring](https://github.com/Faellesoffentlig-Digital-Arkitektur/Erfaringsopsamling-om-softwarerobotter-og-brugerstyring)
 
 - Vejledning om brug af open source i den offentlige sektor
 
