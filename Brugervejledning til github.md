@@ -16,6 +16,8 @@
 
 ### Invitation til repository
 
+Start med at få github brugernavn på den eller dem som skal inviteres
+
 1. **Gå til dit repository**:
    
    - Log ind på GitHub.
@@ -37,7 +39,8 @@
    - Skriv brugernavnet eller
      e-mailadressen på den person, du vil invitere.
    
-   - Klik på 'Select a member above'  
+   - Klik på 'Select a member above' 
+     Husk at vælge rolle til personen 
 
 5. **Send invitationen**:
    
@@ -59,7 +62,22 @@ request som en admin så kan tage stilling til
 
 ### Markdown editor (MarkText)
 
-#### Tilføj billeder, ved nyt produkt eller rediger produkt
+#### Rediger markdown fil i MarkText
+
+1. Åben MarkText og klik oppe i venstre hjørne (3 strejer)
+
+2. Klik "File" og "Open folder" vælg github mappen (lavet i github desktop) til det repository som du skal rette i.
+
+3. Der kommer en menu i venstre side af MarkText hvor du kan vælge filen
+
+4. Når filen er åben kan du lave dine rettelser, når du klikker på en linie vil der komme et ikon ude til venstre for linien, der kan du ændre til overskrifter, lists, m.m.
+   **INFO:** Indholdsfortegnelse laves ud fra Overskrifter "H1,H2 etc."
+
+5. Tabeller: For at oprette en tabel skal man trykke "CmdOrCtrl +Shift+T""
+
+6. Afslut med at save "ctrl+s" og derefter gå ind i programmet github desktop og commit+push
+
+#### Tilføj billeder, ved nyt produkt eller rediger produkt (VIGTIGT)
 
 1. Oppe i venstre hjørne klik på de 3 streger og vælg "File" - > Preferences -> image
 2. Under Default action.. Vælg: "Copy image to designated relative assets or global local folder"
@@ -69,6 +87,36 @@ request som en admin så kan tage stilling til
 Merge og håndtering af konflikter
 
 ### Hvordan Lægges rettelser på github
+
+#### Opret ny branch (hvis ikke admin)
+
+Hvis du ikke er admin så skal du oprette en branch (gren med dine ændringer) som du kan push til det repository hvor ændringer skal tilføjes:
+
+### Trin 1: Åbn GitHub Desktop
+
+1. Åbn GitHub Desktop-applikationen på din computer.
+
+### Trin 2: Vælg dit repository
+
+1. Sørg for, at du har valgt det repository, hvor du vil oprette en ny branch. Du kan vælge dit repository fra dropdown-menuen øverst til venstre.
+
+### Trin 3: Opret en ny branch
+
+1. Klik på dropdown-menuen, der viser den aktuelle branch (som regel “main” eller “master”) øverst midt i applikationen.
+2. Klik på "New Branch".
+
+### Trin 4: Navngiv din branch
+
+1. I pop-up vinduet, der kommer frem, skal du indtaste navnet på den nye branch.
+2. Vælg, hvilken branch du vil forgrene fra (som regel vil det være "main" eller "master").
+3. Klik på "Create Branch".
+
+### Trin 5: Skift til den nye branch
+
+1. Efter at have oprettet den nye branch, vil GitHub Desktop automatisk skifte til den nye branch.
+2. Du kan nu begynde at arbejde på denne nye branch.
+3. Når du har lavet ændringer, skal du huske at committe og pushe dem til GitHub.
+4. Når det er gjort følg guide "Merge branches ved hjælp af GitHub.com"
 
 #### Push to main (direkte til offentligt produktet)
 
