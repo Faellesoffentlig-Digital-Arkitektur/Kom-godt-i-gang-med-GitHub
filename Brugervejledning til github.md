@@ -2,15 +2,20 @@
 
 ## Værktøjer
 
-**Github desktop** https://desktop.github.com/ Bruges til at få sine ændringer op til github og hente nyeste version (installer)
+**Github desktop**Bruges til at få sine ændringer op til github og hente nyeste version (installer)
+[https://desktop.github.com/]([https://desktop.github.com/](https://desktop.github.com/))
 
-**MarkText** https://www.marktext.cc/ Brugervenlig måde at lave overskrifter, tabeller m.m. ala word program til markdown, gratis program (installer)
+**MarkText** Brugervenlig måde at lave overskrifter, tabeller m.m. ala word program til markdown, gratis program (installer)
+[https://www.marktext.cc/](https://www.marktext.cc/)
 
 **Github.com** (Til merge, issues + evt. wiki (howto guides) + projects til opgaver og issues med forskellige views )
+[Github.com](https://github.com)
 
-**Html-to-markdown** (Tag en del af en html fil og ændre til markdown, men der er noget som skal justeres efterfølgende (fx. billeder, links). https://htmlmarkdown.com/)
+**Html-to-markdown** (Tag en del af en html fil og Konverter til markdown, men der er noget som skal justeres efterfølgende (fx. billeder, links).
+[https://htmlmarkdown.com]([https://htmlmarkdown.com](https://htmlmarkdown.com))
 
-**Word fil til markdown** - https://mconverter.eu/convert/docx/md/
+**Word fil til markdown** - Konverter fra word til markdown
+[https://mconverter.eu/convert/docx/md/](https://mconverter.eu/convert/docx/md/)
 
 ## Guides
 
@@ -50,25 +55,34 @@ Start med at få github brugernavn på den eller dem som skal inviteres
    
    - Når personen accepterer invitationen, vil de få adgang til
      dit repository afhængigt af den rolle, du har tildelt dem.
+- **Husk**  
+  For at kunne invitere andre til et repository,
+  skal du have de nødvendige rettigheder (typisk som ejer eller
+  administrator af repositoryet).  
 
-**Husk**  
-For at kunne invitere andre til et repository,
-skal du have de nødvendige rettigheder (typisk som ejer eller
-administrator af repositoryet).  
+- Bruger skal minimum have
+  write tilladelse for at push til main repo. Alle kan lave et pull
+  request som en admin så kan tage stilling til
 
-Bruger skal minimum have
-write tilladelse for at push til main repo. Alle kan lave et pull
-request som en admin så kan tage stilling til
+- Inden man går igang med ændringer på et produkt/fil så lav en fetch/pull i github desktop så man har den nyeste version lokalt.
 
+### Hvordan opretter man et nyt produkt
 
+1. Gå ind på github.com -> vælg din organisaition -> Klik repositories -> Klik "new repository"
 
-### Hent produkt repository til egen computer
+2. Udfyld "Repository name"
 
-1. Åben Github desktop hvor du er logget ind med din bruger 
+3. Vælg privat eller public (public hvis man er klar til at offentligøre produktet og har filerne klar, privat hvis man endnu ikke vil dele offentligt )
 
-2. Vælg add og clone og vælg fra listen, hvis du ikke er tilføjet som admin eller writer på et repository så skal du på github i det repository som du vil arbejde i, vælge "Code" og kopier linket i til github desktop (Add->clone>url)
+4. Check af "Add a README file"
 
+5. Tryk "Create Repository"
 
+6. Tildel nu rettigheder til andre brugere, hvis der er behov for det under settings
+
+7. Evt. udfyld informationer i readme filen, ved at redigere filen på github.com eller via github desktop.
+
+8. For at tilføje indhold på det nye produkt så følg guiden "Hvordan Lægges produkt rettelser på github" men hvor du først opretter en fil kald FILNAVN.md + en assets folder til billeder i roden af github folderen
 
 ### Markdown editor (MarkText)
 
@@ -80,12 +94,21 @@ request som en admin så kan tage stilling til
 
 3. Der kommer en menu i venstre side af MarkText hvor du kan vælge filen
 
-4. Når filen er åben kan du lave dine rettelser, når du klikker på en linie vil der komme et ikon ude til venstre for linien, der kan du ændre til overskrifter, lists, m.m. Hvis du markere noget tekst kommer der en menu over med muligheder (bold, link m.m.)
-   **INFO:** Indholdsfortegnelse laves ud fra Overskrifter "H1,H2 etc."
+4. Når filen er åben kan du lave dine rettelser, når du klikker på en linie vil der komme et ikon ude til venstre for linien, der kan du ændre til overskrifter, lists, m.m. Hvis du markere noget tekst kommer der en menu over med muligheder (bold, link m.m.) **INFO:** Indholdsfortegnelse laves ud fra Overskrifter "H1,H2 etc."
 
 5. Tabeller: For at oprette en tabel skal man trykke "CmdOrCtrl +Shift+T""
 
 6. Afslut med at save "ctrl+s" og derefter gå ind i programmet github desktop og commit+push
+
+### Hent produkt repository til egen computer
+
+1. Åben Github desktop hvor du er logget ind med din bruger 
+
+2. Vælg add og clone og vælg fra listen, hvis du ikke er tilføjet som admin eller writer på et repository så skal du på github i det repository som du vil arbejde i, vælge "Code" og kopier linket i til github desktop (Add->clone>url)
+
+
+
+
 
 #### Tilføj billeder, ved nyt produkt eller rediger produkt (VIGTIGT)
 
@@ -96,43 +119,45 @@ request som en admin så kan tage stilling til
 
 Merge og håndtering af konflikter
 
-### Hvordan Lægges rettelser på github
+
+
+### Hvordan Lægges produkt rettelser på github
 
 #### Opret ny branch (hvis ikke admin)
 
 Hvis du ikke er admin så skal du oprette en branch (gren med dine ændringer) som du kan push til det repository hvor ændringer skal tilføjes:
 
-### Trin 1: Åbn GitHub Desktop
+##### Trin 1: Åbn GitHub Desktop
 
 1. Åbn GitHub Desktop-applikationen på din computer.
 
-### Trin 2: Vælg dit repository
+##### Trin 2: Vælg dit repository
 
 1. Sørg for, at du har valgt det repository, hvor du vil oprette en ny branch. Du kan vælge dit repository fra dropdown-menuen øverst til venstre.
 
-### Trin 3: Opret en ny branch
+##### Trin 3: Opret en ny branch
 
 1. Klik på dropdown-menuen, der viser den aktuelle branch (som regel “main” eller “master”) øverst midt i applikationen.
 2. Klik på "New Branch".
 
-### Trin 4: Navngiv din branch
+##### Trin 4: Navngiv din branch
 
 1. I pop-up vinduet, der kommer frem, skal du indtaste navnet på den nye branch.
 2. Vælg, hvilken branch du vil forgrene fra (som regel vil det være "main" eller "master").
 3. Klik på "Create Branch".
 
-### Trin 5: Skift til den nye branch
+##### Trin 5: Skift til den nye branch
 
 1. Efter at have oprettet den nye branch, vil GitHub Desktop automatisk skifte til den nye branch.
 2. Du kan nu begynde at arbejde på denne nye branch.
-3. Når du har lavet ændringer, skal du huske at committe og pushe dem til GitHub via github desktop.
+3. Når du har lavet ændringer og gemt åben github desktop og skriv en commit besked nede til venstre og klik commit og derefter push (står i midten)
 4. Når det er gjort følg guide "Merge branches ved hjælp af GitHub.com"
 
-#### Push to main (direkte til offentligt produktet)
+#### Push to main (direkte til offentligt produktet - admin)
 
 Hvis du er admin og ikke skal lave en branch før du pusher dine ændringer så er det nemt med Github desktop. Tryk commit nede til venstre med en besked og push kommer frem i midten
 
-#### Merge (flet flere filer sammen)
+#### Merge (flet filer sammen)
 
 ##### Merge branches ved hjælp af GitHub Desktop:
 
@@ -367,9 +392,9 @@ GitHub, kan du bruge deres nummer eller hash, som følger:
   Dette problem blev løst i commit @abcdef.
   ```
 
-#### Krydshenvisninger til Tekstlokationer i
+#### Krydshenvisninger til tekstlokationer i Markdown-filer
 
-Markdown-filer
+
 
 Hvis du vil krydshenvise til en specifik placering i en
 Markdown-fil, som f.eks. en bestemt sektion, en tabel, eller en
@@ -414,9 +439,9 @@ lettere for brugerne at navigere og finde relevant information.
 
 - Klik på pilen til højre for unwatch
 
-![Ændre notifikationer på et repository.png](assets/3034c681dc9cc668c15b5e2778a80515a71e7c19.png)
+![Ændre notifikationer på et repository.png](assets/3034c681dc9cc668c15b5e2778a80515a71e7c19.png) 
 
-### 
+
 
 ### Hvordan finder man gamle versioner af et produkt (releases)
 
@@ -429,3 +454,61 @@ lettere for brugerne at navigere og finde relevant information.
 - klik på den version (release) som du skal bruge
 
 ![Hvordan finder man gamle versioner af et produkt.png](assets/75b98b4913536ef88bec803d0aefcfdbc9aadb3e.png)
+
+
+
+### FAQ
+
+#### Fetch
+
+- Henter ændringer uden at integrere dem.
+
+- Ingen risiko for at ændre dit lokale arbejde.
+
+- Bruges til at se, hvad der er ændret i fjernrepoen, før du integrerer disse ændringer.
+
+#### Pull
+
+- Henter og integrerer ændringer i én handling.
+
+- Kombinerer fjernrepoens ændringer med dit lokale arbejde, hvilket kan føre til konflikter, hvis der er modstridende ændringer.
+
+- Bruges til at sikre, at din lokale kopi er opdateret med de nyeste ændringer fra fjernrepoen.
+
+
+
+#### Github desktop hvad sker der hvis man laver en pull og der er en ændring på en fil, som man kun har ændret i lokalt
+
+Når du laver en pull i GitHub Desktop og der er ændringer i en fil, som du også har ændret lokalt, vil Git forsøge at fusionere de ændringer. Her er hvad der typisk sker i dette scenarie:
+
+1. **Automatisk Fusionering (Merge)**:
+   
+   - Hvis ændringerne i den samme fil er i forskellige dele (linjer) af filen, vil Git automatisk fusionere disse ændringer. Dette betyder, at både dine lokale ændringer og de ændringer, der blev hentet fra fjernlageret (remote), vil blive bevaret.
+
+2. **Kombination af Ændringer (Merge Conflict)**:
+   
+   - Hvis ændringerne er i de samme linjer af filen, vil Git ikke kunne foretage en automatisk fusionering. Dette resulterer i en fusionskonflikt (merge conflict). Git vil markere konflikten i filen og du bliver nødt til at løse denne konflikt manuelt. GitHub Desktop vil hjælpe dig ved at vise konflikten og give dig mulighed for at vælge, hvordan konflikten skal løses.
+
+**Sådan håndteres en merge conflict i GitHub Desktop:**
+
+1. **Når konflikten opstår**, vil GitHub Desktop vise en besked om, at der er opstået en konflikt og vil give dig mulighed for at se de konfliktramte filer.
+
+2. **Åbn filen med konflikten**: Du vil se sektioner markeret som:
+   
+   
+   <<<<<<< HEAD 
+   Dine lokale ændringer 
+   ======= 
+   Ændringer fra fjernlageret 
+   >>>>>>> branch-name
+   
+
+3. **Løs konflikten** ved at redigere filen manuelt. Fjern konfliktsmarkørerne (<<<<<<, =======, >>>>>>) og vælg hvilken ændring du vil beholde eller kombiner begge ændringer på en meningsfuld måde.
+
+4. **Når konflikten er løst**, gem filen og gå tilbage til GitHub Desktop.
+
+5. **Markér konflikten som løst**: GitHub Desktop vil give dig mulighed for at markere konflikten som løst.
+
+6. **Udfør en commit** af de ændringer, der blev lavet for at løse konflikten.
+
+7. **Push de ændringer** tilbage til fjernlageret (remote repository).
