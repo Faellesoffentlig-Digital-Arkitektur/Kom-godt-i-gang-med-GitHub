@@ -60,6 +60,16 @@ Bruger skal minimum have
 write tilladelse for at push til main repo. Alle kan lave et pull
 request som en admin så kan tage stilling til
 
+
+
+### Hent produkt repository til egen computer
+
+1. Åben Github desktop hvor du er logget ind med din bruger 
+
+2. Vælg add og clone og vælg fra listen, hvis du ikke er tilføjet som admin eller writer på et repository så skal du på github i det repository som du vil arbejde i, vælge "Code" og kopier linket i til github desktop (Add->clone>url)
+
+
+
 ### Markdown editor (MarkText)
 
 #### Rediger markdown fil i MarkText
@@ -70,7 +80,7 @@ request som en admin så kan tage stilling til
 
 3. Der kommer en menu i venstre side af MarkText hvor du kan vælge filen
 
-4. Når filen er åben kan du lave dine rettelser, når du klikker på en linie vil der komme et ikon ude til venstre for linien, der kan du ændre til overskrifter, lists, m.m.
+4. Når filen er åben kan du lave dine rettelser, når du klikker på en linie vil der komme et ikon ude til venstre for linien, der kan du ændre til overskrifter, lists, m.m. Hvis du markere noget tekst kommer der en menu over med muligheder (bold, link m.m.)
    **INFO:** Indholdsfortegnelse laves ud fra Overskrifter "H1,H2 etc."
 
 5. Tabeller: For at oprette en tabel skal man trykke "CmdOrCtrl +Shift+T""
@@ -115,7 +125,7 @@ Hvis du ikke er admin så skal du oprette en branch (gren med dine ændringer) s
 
 1. Efter at have oprettet den nye branch, vil GitHub Desktop automatisk skifte til den nye branch.
 2. Du kan nu begynde at arbejde på denne nye branch.
-3. Når du har lavet ændringer, skal du huske at committe og pushe dem til GitHub.
+3. Når du har lavet ændringer, skal du huske at committe og pushe dem til GitHub via github desktop.
 4. Når det er gjort følg guide "Merge branches ved hjælp af GitHub.com"
 
 #### Push to main (direkte til offentligt produktet)
