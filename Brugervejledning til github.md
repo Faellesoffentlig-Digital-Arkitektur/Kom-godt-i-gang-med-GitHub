@@ -394,8 +394,6 @@ GitHub, kan du bruge deres nummer eller hash, som følger:
 
 #### Krydshenvisninger til tekstlokationer i Markdown-filer
 
-
-
 Hvis du vil krydshenvise til en specifik placering i en
 Markdown-fil, som f.eks. en bestemt sektion, en tabel, eller en
 kodeblok:
@@ -454,6 +452,16 @@ lettere for brugerne at navigere og finde relevant information.
 - klik på den version (release) som du skal bruge
 
 ![Hvordan finder man gamle versioner af et produkt.png](assets/75b98b4913536ef88bec803d0aefcfdbc9aadb3e.png)
+
+
+
+### Projekter FAQ
+
+- Projekter kan tilføjes til et repository og de kan gøres private eller offentlige (folk kan se hvordan issues prioteres)
+
+- Når der er issues kan man knytte et issue til et projekt og på den måde bedre holde styr på hvor issue er i processen. (gøres ude til højre på et issue)
+
+- Man kan tilføje forskellige label m.m. til en opgave/issue. Man kan tilføje nye hvis man klikker på de 3 prikker ude til højre på et projekt, derefter -> settings -> + New field (Der kan du vælge flere typer, hvis man vil have en tekst labels så vælg text og de kan sorteres, hvis du vælger numre så kan man ikke drag'n'drop som man har lyst til i todos)
 
 
 
