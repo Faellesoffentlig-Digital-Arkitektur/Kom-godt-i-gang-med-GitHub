@@ -467,7 +467,7 @@ lettere for brugerne at navigere og finde relevant information.
 
 ### FAQ
 
-#### Fetch
+#### Hvad betyder Fetch
 
 - Henter ændringer uden at integrere dem.
 
@@ -475,13 +475,21 @@ lettere for brugerne at navigere og finde relevant information.
 
 - Bruges til at se, hvad der er ændret i fjernrepoen, før du integrerer disse ændringer.
 
-#### Pull
+#### Hvad betyder Pull
 
 - Henter og integrerer ændringer i én handling.
 
 - Kombinerer fjernrepoens ændringer med dit lokale arbejde, hvilket kan føre til konflikter, hvis der er modstridende ændringer.
 
 - Bruges til at sikre, at din lokale kopi er opdateret med de nyeste ændringer fra fjernrepoen.
+
+#### Hvad er merge
+
+- **Opret en pull request:** Anmod om at flette ændringer fra din gren til en anden gren.
+- **Gennemgang:** Andre teammedlemmer ser på dine ændringer og godkender dem.
+- **Fletning (merge):** Når ændringerne er godkendt, bliver de kombineret med målgrenen.
+
+
 
 
 
@@ -504,11 +512,11 @@ Når du laver en pull i GitHub Desktop og der er ændringer i en fil, som du ogs
 2. **Åbn filen med konflikten**: Du vil se sektioner markeret som:
    
    
-   <<<<<<< HEAD 
+   `<<<<<<< HEAD 
    Dine lokale ændringer 
    ======= 
    Ændringer fra fjernlageret 
-   >>>>>>> branch-name
+   >>>>>>> branch-name`
    
 
 3. **Løs konflikten** ved at redigere filen manuelt. Fjern konfliktsmarkørerne (<<<<<<, =======, >>>>>>) og vælg hvilken ændring du vil beholde eller kombiner begge ændringer på en meningsfuld måde.
