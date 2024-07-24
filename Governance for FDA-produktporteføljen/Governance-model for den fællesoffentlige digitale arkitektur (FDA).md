@@ -28,6 +28,8 @@ Produktet er fagligt forankret i arkitekturteamet
 
 At være ansvarlig for et produkt udarbejdet af et andet kontor i DIGST eller en ekstern organisation eks. KLVersionering
 
+## Versionering
+
 Versionering består af tre dele MAJOR.MINOR.PATCH alle angivet ved tal som øges med en ad gangen.
 
 MAJOR-delen når man laver inkompatible ændringer
@@ -44,4 +46,8 @@ Patch-delen øges ved rettelser der ikke påvirker indhold overhovedet, primært
 
 Udkast har versionsnumre der starter med nul (fx 0.5.1). 1.0.0 er første færdige (udgivne) version.
 
-## 
+## Håndtering af issues
+
+Svartiden
+
+Hvem håndterer de enkelte issues - product manager - produktansvarlig
