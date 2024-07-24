@@ -491,8 +491,6 @@ lettere for brugerne at navigere og finde relevant information.
 
 
 
-
-
 #### Github desktop hvad sker der hvis man laver en pull og der er en ændring på en fil, som man kun har ændret i lokalt
 
 Når du laver en pull i GitHub Desktop og der er ændringer i en fil, som du også har ændret lokalt, vil Git forsøge at fusionere de ændringer. Her er hvad der typisk sker i dette scenarie:
