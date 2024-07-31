@@ -17,6 +17,8 @@
 **Word fil til markdown** - Konverter fra word til markdown
 [https://mconverter.eu/convert/docx/md/](https://mconverter.eu/convert/docx/md/)
 
+ 
+
 ## Guides
 
 ### Invitation til repository
@@ -451,8 +453,6 @@ lettere for brugerne at navigere og finde relevant information.
 4. Udfyld detaljer som projektnavn og beskrivelse.
 5. Klik på "Create project".
 
-
-
 #### Sådan opretter man kategori boksen
 
 *Bruges fx. til at kategorisere todos fx. produkt, videoguide etc.*
@@ -468,8 +468,6 @@ lettere for brugerne at navigere og finde relevant information.
 5. Du kan nu skrive en kategori tekst i dit nye felt i projekt opgaver.
 
 6. INFO: Du kan drag''n'drop dine opgaver som du vil når du laver egne custom fields, 
-
-
 
 ### Hvordan finder man gamle versioner af et produkt (releases)
 
@@ -532,10 +530,12 @@ Når du laver en pull i GitHub Desktop og der er ændringer i en fil, som du ogs
 1. **Når konflikten opstår**, vil GitHub Desktop vise en besked om, at der er opstået en konflikt og vil give dig mulighed for at se de konfliktramte filer.
 
 2. **Åbn filen med konflikten**: Du vil se sektioner markeret som:
-
+   
    `<<<<<<< HEAD 
-   Dine lokale ændringer 
-   ======= 
+   
+   Dine lokale ændringer
+   =======
+   
    Ændringer fra fjernlageret 
 
 > > > > > > > branch-name`
