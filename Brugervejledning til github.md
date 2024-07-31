@@ -103,7 +103,6 @@ Start med at få github brugernavn på den eller dem som skal inviteres
 6. Afslut med at save "ctrl+s" og derefter gå ind i programmet github desktop og commit+push
 
 ### Hent produkt repository til egen computer
-[Mini introguide]([https://github.com/yourusername/yourrepo/raw/main/assets/video.mp4](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/blob/main/assets/videoguides/Hent%20produkt%20repository%20til%20egen%20computer.mp4)
 
 1. Åben Github desktop hvor du er logget ind med din bruger 
 
