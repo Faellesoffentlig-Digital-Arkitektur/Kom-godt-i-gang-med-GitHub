@@ -106,10 +106,6 @@ Start med at få github brugernavn på den eller dem som skal inviteres
 
 2. Vælg add og clone og vælg fra listen, hvis du ikke er tilføjet som admin eller writer på et repository så skal du på github i det repository som du vil arbejde i, vælge "Code" og kopier linket i til github desktop (Add->clone>url)
 
-
-
-
-
 #### Tilføj billeder, ved nyt produkt eller rediger produkt (VIGTIGT)
 
 1. Oppe i venstre hjørne klik på de 3 streger og vælg "File" - > Preferences -> image
@@ -118,8 +114,6 @@ Start med at få github brugernavn på den eller dem som skal inviteres
 4. Drag 'n' drop nu billeder fra assets folderen til de steder hvor der mangler billeder
 
 Merge og håndtering af konflikter
-
-
 
 ### Hvordan Lægges produkt rettelser på github
 
@@ -439,6 +433,42 @@ lettere for brugerne at navigere og finde relevant information.
 
 ![Ændre notifikationer på et repository.png](assets/3034c681dc9cc668c15b5e2778a80515a71e7c19.png) 
 
+### 
+
+### Projekter
+
+#### Tildel et issue til et projekt på GitHub
+
+1. Efter at have oprettet dit issue, vil du se det nye issue på listen. Klik på issue-titlen for at åbne det.
+2. I højre side under "Projects", klik på "Projects" dropdown-menuen.
+3. Vælg det projekt, du vil tildele issue til. Hvis der ikke er nogen projekter tilgængelige, skal du først oprette et projekt.
+
+#### Oprettelse af et Projekt (hvis nødvendigt)
+
+1. Gå til din repository's hovedside.
+2. Klik på "Projects" fanen.
+3. Klik på "New project".
+4. Udfyld detaljer som projektnavn og beskrivelse.
+5. Klik på "Create project".
+
+
+
+#### Sådan opretter man kategori boksen
+
+*Bruges fx. til at kategorisere todos fx. produkt, videoguide etc.*
+
+1. Gå til dit projekt
+
+2. Klik på de 3 prikker oppet til højre
+
+3. Klik "setting"
+
+4. Under Custom fields klik "New field" skriv kategori navn og vælg fx. Text i dropdownen
+
+5. Du kan nu skrive en kategori tekst i dit nye felt i projekt opgaver.
+
+6. INFO: Du kan drag''n'drop dine opgaver som du vil når du laver egne custom fields, 
+
 
 
 ### Hvordan finder man gamle versioner af et produkt (releases)
@@ -453,8 +483,6 @@ lettere for brugerne at navigere og finde relevant information.
 
 ![Hvordan finder man gamle versioner af et produkt.png](assets/75b98b4913536ef88bec803d0aefcfdbc9aadb3e.png)
 
-
-
 ### Projekter FAQ
 
 - Projekter kan tilføjes til et repository og de kan gøres private eller offentlige (folk kan se hvordan issues prioteres)
@@ -462,8 +490,6 @@ lettere for brugerne at navigere og finde relevant information.
 - Når der er issues kan man knytte et issue til et projekt og på den måde bedre holde styr på hvor issue er i processen. (gøres ude til højre på et issue)
 
 - Man kan tilføje forskellige label m.m. til en opgave/issue. Man kan tilføje nye hvis man klikker på de 3 prikker ude til højre på et projekt, derefter -> settings -> + New field (Der kan du vælge flere typer, hvis man vil have en tekst labels så vælg text og de kan sorteres, hvis du vælger numre så kan man ikke drag'n'drop som man har lyst til i todos)
-
-
 
 ### FAQ
 
@@ -489,8 +515,6 @@ lettere for brugerne at navigere og finde relevant information.
 - **Gennemgang:** Andre teammedlemmer ser på dine ændringer og godkender dem.
 - **Fletning (merge):** Når ændringerne er godkendt, bliver de kombineret med målgrenen.
 
-
-
 #### Github desktop hvad sker der hvis man laver en pull og der er en ændring på en fil, som man kun har ændret i lokalt
 
 Når du laver en pull i GitHub Desktop og der er ændringer i en fil, som du også har ændret lokalt, vil Git forsøge at fusionere de ændringer. Her er hvad der typisk sker i dette scenarie:
@@ -508,14 +532,13 @@ Når du laver en pull i GitHub Desktop og der er ændringer i en fil, som du ogs
 1. **Når konflikten opstår**, vil GitHub Desktop vise en besked om, at der er opstået en konflikt og vil give dig mulighed for at se de konfliktramte filer.
 
 2. **Åbn filen med konflikten**: Du vil se sektioner markeret som:
-   
-   
+
    `<<<<<<< HEAD 
    Dine lokale ændringer 
    ======= 
    Ændringer fra fjernlageret 
-   >>>>>>> branch-name`
-   
+
+> > > > > > > branch-name`
 
 3. **Løs konflikten** ved at redigere filen manuelt. Fjern konfliktsmarkørerne (<<<<<<, =======, >>>>>>) og vælg hvilken ændring du vil beholde eller kombiner begge ændringer på en meningsfuld måde.
 
