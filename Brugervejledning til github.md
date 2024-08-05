@@ -25,7 +25,7 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
 Se video intro til Invitation til repository
 
-<iframe width="560" height="315" src="https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Invitation%20til%20repository.mp4" frameborder="0" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/XyoVP3IV4xA/0.jpg)](https://www.youtube.com/watch?v=XyoVP3IV4xA)
 
 1. **Gå til dit repository**:
    
