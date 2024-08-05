@@ -290,7 +290,7 @@ er en to-trins proces, der involverer både det lokale GitHub
 Desktop-program og den online GitHub.com-tjeneste. Her er en trinvis
 vejledning:
 
-### Opret et tag i GitHub Desktop
+#### Opret et tag i GitHub Desktop
 
 1. **Åbn GitHub Desktop**:
    
@@ -318,7 +318,7 @@ vejledning:
    - Klik på `Push origin` for at
      sende dit nye tag til GitHub repository.
 
-### Opret en release i GitHub.com
+#### Opret en release i GitHub.com
 
 1. **Åbn dit repository på GitHub.com**:
    
@@ -488,6 +488,20 @@ Hvis du ønsker at annullere ændringerne fra en bestemt commit, er dette den ri
 3. Klik på "New project".
 4. Udfyld detaljer som projektnavn og beskrivelse.
 5. Klik på "Create project".
+
+#### Hvordan assigner man en til et issue/draft på et projekt
+
+1. Gå til din repository's hovedside.
+
+2. Klik på "Projects" fanen.
+
+3. Klik på det projekt hvor du skal assign en personen
+
+4. Klik på det issue/draft hvor du skal assign en person
+
+5. Klik ude til højre på "Add assignees" og vælg den eller de personener som skal på opgaven (den/de vil få en mail med en notifikation)
+
+**Info:** Draft betyder at opgaven ikke er fra issues men oprettet under projektet og ikke konverteret til et issue. Draft bruges til alle andre typer opgaver om ikke har noget med  issues at gøre.
 
 #### Sådan opretter man kategori boksen
 
