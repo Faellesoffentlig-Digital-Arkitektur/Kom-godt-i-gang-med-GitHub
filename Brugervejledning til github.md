@@ -106,9 +106,16 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
 2. Vælg add og clone og vælg fra listen, hvis du ikke er tilføjet som admin eller writer på et repository så skal du på github i det repository som du vil arbejde i, vælge "Code" og kopier linket i til github desktop (Add->clone>url)
 
-
+Gif video
 
 ![Hent produkt repository til egen computer.gif](assets/47268321807b15e5119e85a958b6b445dfb88b72.gif)
+
+
+
+link til video inkl thumbnail på anden video platform
+[![Se video intro](https://img.youtube.com/vi/XyoVP3IV4xA/0.jpg)](https://www.youtube.com/watch?v=XyoVP3IV4xA)
+
+Kun link til video på anden video platform
 
 #### Tilføj billeder, ved nyt produkt eller rediger produkt (VIGTIGT)
 
