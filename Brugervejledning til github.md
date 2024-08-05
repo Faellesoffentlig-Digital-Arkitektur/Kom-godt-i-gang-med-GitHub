@@ -23,7 +23,7 @@
 
 Start med at få github brugernavn på den eller dem som skal inviteres
 
-[![Se Invitation til repository mini video intro]](https://raw.githubusercontent.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Invitation%20til%20repository.mp4)
+[![Se Invitation til repository mini video intro]](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Invitation%20til%20repository.mp4))
 
 
 
