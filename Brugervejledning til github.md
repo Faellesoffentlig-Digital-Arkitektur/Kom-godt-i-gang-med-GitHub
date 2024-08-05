@@ -21,11 +21,11 @@
 
 ### Invitation til repository
 
-Start med at få github brugernavn på den eller dem som skal inviteres
+Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
-[![Se Invitation til repository mini video intro]](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Invitation%20til%20repository.mp4))
+Se video intro til Invitation til repository
 
-
+<iframe width="560" height="315" src="https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Invitation%20til%20repository.mp4" frameborder="0" allowfullscreen></iframe>
 
 1. **Gå til dit repository**:
    
