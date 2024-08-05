@@ -116,8 +116,6 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
 [**Kun link til video på anden video platform**](https://www.youtube.com/watch?v=XyoVP3IV4xA)
 
-
-
 #### Tilføj billeder, ved nyt produkt eller rediger produkt (VIGTIGT)
 
 1. Oppe i venstre hjørne klik på de 3 streger og vælg "File" - > Preferences -> image
@@ -445,7 +443,35 @@ lettere for brugerne at navigere og finde relevant information.
 
 ![Ændre notifikationer på et repository.png](assets/3034c681dc9cc668c15b5e2778a80515a71e7c19.png) 
 
-### 
+### Hvordan sletter man en commit ved hjælp af github desktop
+
+#### 1. Åbn GitHub Desktop
+
+For at slette en tidligere commit i GitHub Desktop skal du følge disse trin:
+
+1. Åbn GitHub Desktop.
+2. Klik på fanen “Historik” i venstre sidepanel.
+3. Højreklik på den commit, du vil slette vælg “Revert changes in commit ”
+4. Commit og push 
+
+**Bemærk**, at når du sletter en tidligere commit, oprettes der også en ny commit, der fjerner ændringerne fra den valgte commit.
+
+Hvis du ønsker at annullere ændringerne fra en bestemt commit, er dette den rigtige fremgangsmåde. 
+
+
+### Hvordan finder man gamle versioner af et produkt (releases)
+
+- Naviger til det repository, hvor du ønsker at finde en anden version .
+
+- Klik på pilen til højre for main
+
+- Klik Tags
+
+- klik på den version (release) som du skal bruge
+
+![Hvordan finder man gamle versioner af et produkt.png](assets/75b98b4913536ef88bec803d0aefcfdbc9aadb3e.png)
+
+
 
 ### Projekter
 
@@ -479,17 +505,9 @@ lettere for brugerne at navigere og finde relevant information.
 
 6. INFO: Du kan drag''n'drop dine opgaver som du vil når du laver egne custom fields, 
 
-### Hvordan finder man gamle versioner af et produkt (releases)
 
-- Naviger til det repository, hvor du ønsker at finde en anden version .
 
-- Klik på pilen til højre for main
 
-- Klik Tags
-
-- klik på den version (release) som du skal bruge
-
-![Hvordan finder man gamle versioner af et produkt.png](assets/75b98b4913536ef88bec803d0aefcfdbc9aadb3e.png)
 
 ### Projekter FAQ
 
