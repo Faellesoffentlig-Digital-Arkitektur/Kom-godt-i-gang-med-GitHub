@@ -23,10 +23,6 @@
 
 Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
-Se video intro til Invitation til repository
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/XyoVP3IV4xA/0.jpg)](https://www.youtube.com/watch?v=XyoVP3IV4xA)
-
 1. **Gå til dit repository**:
    
    - Log ind på GitHub.
@@ -109,6 +105,10 @@ Se video intro til Invitation til repository
 1. Åben Github desktop hvor du er logget ind med din bruger 
 
 2. Vælg add og clone og vælg fra listen, hvis du ikke er tilføjet som admin eller writer på et repository så skal du på github i det repository som du vil arbejde i, vælge "Code" og kopier linket i til github desktop (Add->clone>url)
+
+
+
+![Hent produkt repository til egen computer.gif](assets/47268321807b15e5119e85a958b6b445dfb88b72.gif)
 
 #### Tilføj billeder, ved nyt produkt eller rediger produkt (VIGTIGT)
 
