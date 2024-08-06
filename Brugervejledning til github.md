@@ -66,6 +66,8 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
 - Inden man går igang med ændringer på et produkt/fil så lav en fetch/pull i github desktop så man har den nyeste version lokalt.
 
+[![Invitation til repository.gif](assets/0181613cf9f04353c78e2a8d31b852b7987f25ab.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Invitation%20til%20repository.mp4)
+
 ### Hvordan opretter man et nyt produkt
 
 1. Gå ind på github.com -> vælg din organisaition -> Klik repositories -> Klik "new repository"
@@ -84,6 +86,8 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
 8. For at tilføje indhold på det nye produkt så følg guiden "Hvordan Lægges produkt rettelser på github" men hvor du først opretter en fil kald FILNAVN.md + en assets folder til billeder i roden af github folderen
 
+[![Hvordan opretter man et nyt produkt.gif](assets/54f1848ca394253acae36b55222e7be1d0657a93.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20opretter%20man%20et%20nyt%20produkt.mp4)
+
 ### Markdown editor (MarkText)
 
 #### Rediger markdown fil i MarkText
@@ -99,6 +103,8 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 5. Tabeller: For at oprette en tabel skal man trykke "CmdOrCtrl +Shift+T""
 
 6. Afslut med at save "ctrl+s" og derefter gå ind i programmet github desktop og commit+push
+
+[![Markdown editor (MarkText).gif](assets/f94107bf480a121dc00e69ebeac51272fa8a397a.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Markdown%20editor%20(MarkText).mp4)
 
 ### Hent produkt repository til egen computer
 
@@ -152,6 +158,8 @@ Hvis du ikke er admin så skal du oprette en branch (gren med dine ændringer) s
 #### Push to main (direkte til offentligt produktet - admin)
 
 Hvis du er admin og ikke skal lave en branch før du pusher dine ændringer så er det nemt med Github desktop. Tryk commit nede til venstre med en besked og push kommer frem i midten
+
+[![Hvordan Lægges produkt rettelser på github.gif](assets/7df46ecccf11b8861c5da106922a3ed92787a176.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20L%C3%A6gges%20produkt%20rettelser%20p%C3%A5%20github.mp4)
 
 #### Merge (flet filer sammen)
 
@@ -339,6 +347,8 @@ vejledning:
    
    - Når alle oplysninger er udfyldt, klik på `Publish release` knappen.
 
+[![Hvordan oprettes tags og releases.gif](assets/5216d2c5687a18ba403f3ce0a074b8d076e85ae5.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20oprettes%20tags%20og%20releases.mp4)
+
 ### Issues og krydshenvisninger guide
 
 Hvordan bruges issue-funktionen i GitHub i public repositories
@@ -400,7 +410,9 @@ På github naviger ind på en fil som du skal henvise til og gøre som på bille
 
 ![link til tekst i md fil.png](assets/9bf4da23a29ac8db2ac0a6419025398e67c84479.png)
 
-Indsæt derefter i din kommentar nye issue eller andre steder på github
+Indsæt derefter i din kommentar, nye issue eller andre steder på github
+
+[![Krydshenvisninger til bestemt tekst i en linje.gif](assets/9e1d264363024e905f4f2933f1d9353faee32140.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Krydshenvisninger%20til%20bestemt%20tekst%20i%20en%20linje.mp4)
 
 #### Krydshenvisninger i Kommentarer og Pull
 
