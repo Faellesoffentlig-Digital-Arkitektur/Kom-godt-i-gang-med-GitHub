@@ -106,15 +106,7 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
 2. Vælg add og clone og vælg fra listen, hvis du ikke er tilføjet som admin eller writer på et repository så skal du på github i det repository som du vil arbejde i, vælge "Code" og kopier linket i til github desktop (Add->clone>url)
 
-**Gif video**
-
-![Hent produkt repository til egen computer.gif](assets/47268321807b15e5119e85a958b6b445dfb88b72.gif)
-
-**link til video inkl thumbnail på anden video platform**
-
-[![Se video intro](https://img.youtube.com/vi/XyoVP3IV4xA/0.jpg)](https://www.youtube.com/watch?v=XyoVP3IV4xA)
-
-[**Kun link til video på anden video platform**](https://www.youtube.com/watch?v=XyoVP3IV4xA)
+[![Hent produkt repository til egen computer.gif](assets/47268321807b15e5119e85a958b6b445dfb88b72.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hent%20produkt%20repository%20til%20egen%20computer.mp4)
 
 #### Tilføj billeder, ved nyt produkt eller rediger produkt (VIGTIGT)
 
@@ -458,7 +450,6 @@ For at slette en tidligere commit i GitHub Desktop skal du følge disse trin:
 
 Hvis du ønsker at annullere ændringerne fra en bestemt commit, er dette den rigtige fremgangsmåde. 
 
-
 ### Hvordan finder man gamle versioner af et produkt (releases)
 
 - Naviger til det repository, hvor du ønsker at finde en anden version .
@@ -470,8 +461,6 @@ Hvis du ønsker at annullere ændringerne fra en bestemt commit, er dette den ri
 - klik på den version (release) som du skal bruge
 
 ![Hvordan finder man gamle versioner af et produkt.png](assets/75b98b4913536ef88bec803d0aefcfdbc9aadb3e.png)
-
-
 
 ### Projekter
 
@@ -518,10 +507,6 @@ Hvis du ønsker at annullere ændringerne fra en bestemt commit, er dette den ri
 5. Du kan nu skrive en kategori tekst i dit nye felt i projekt opgaver.
 
 6. INFO: Du kan drag''n'drop dine opgaver som du vil når du laver egne custom fields, 
-
-
-
-
 
 ### Projekter FAQ
 
