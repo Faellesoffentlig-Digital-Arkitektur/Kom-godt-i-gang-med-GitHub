@@ -414,6 +414,8 @@ Indsæt derefter i din kommentar, nye issue eller andre steder på github
 
 [![Krydshenvisninger til bestemt tekst i en linje.gif](assets/9e1d264363024e905f4f2933f1d9353faee32140.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Krydshenvisninger%20til%20bestemt%20tekst%20i%20en%20linje.mp4)
 
+ 
+
 #### Krydshenvisninger i Kommentarer og Pull
 
 Disse krydshenvisninger fungerer i kommentarer, issues, pull
