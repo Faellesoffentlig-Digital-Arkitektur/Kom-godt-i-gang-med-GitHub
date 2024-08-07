@@ -2,17 +2,21 @@
 
 ## Værktøjer
 
-**Github desktop**Bruges til at få sine ændringer op til github og hente nyeste version (installer) 
-[https://desktop.github.com/]([https://desktop.github.com/](https://desktop.github.com/))
+**Github desktop** Bruges til at få sine ændringer op til github og hente nyeste version (installer) 
+[https://desktop.github.com]([https://desktop.github.com](https://desktop.github.com))
+
 
 **MarkText** Brugervenlig måde at lave overskrifter, tabeller m.m. ala word program til markdown, gratis program (installer)
-[https://www.marktext.cc/](https://www.marktext.cc/)
+[https://www.marktext.cc/
+](https://www.marktext.cc/)
 
 **Github.com** (Til merge, issues + evt. wiki (howto guides) + projects til opgaver og issues med forskellige views )
 [Github.com](https://github.com)
 
+
 **Html-to-markdown** (Tag en del af en html fil og Konverter til markdown, men der er noget som skal justeres efterfølgende (fx. billeder, links).
 [https://htmlmarkdown.com]([https://htmlmarkdown.com](https://htmlmarkdown.com))
+
 
 **Word fil til markdown** - Konverter fra word til markdown
 [https://mconverter.eu/convert/docx/md/](https://mconverter.eu/convert/docx/md/)
