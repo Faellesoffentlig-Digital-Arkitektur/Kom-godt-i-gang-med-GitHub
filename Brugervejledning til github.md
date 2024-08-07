@@ -3,7 +3,7 @@
 ## Værktøjer
 
 **Github desktop** Bruges til at få sine ændringer op til github og hente nyeste version (installer) 
-[https://desktop.github.com]([https://desktop.github.com](https://desktop.github.com))
+[https://desktop.github.com](https://desktop.github.com)
 
 
 **MarkText** Brugervenlig måde at lave overskrifter, tabeller m.m. ala word program til markdown, gratis program (installer)
