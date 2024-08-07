@@ -127,7 +127,7 @@ Merge og håndtering af konflikter
 
 #### Opret ny branch (hvis ikke admin)
 
-Hvis du ikke er admin så skal du oprette en branch (gren med dine ændringer) som du kan push til det repository hvor ændringer skal tilføjes:
+Hvis du ikke er admin men Contributor (Bidragyder) så skal du oprette en branch (gren med dine ændringer) som du kan push til det repository hvor ændringer skal tilføjes og produkt ansvarlig så vil tage stilling til om ens ændringer kan merges med main :
 
 ##### Trin 1: Åbn GitHub Desktop
 
@@ -413,8 +413,6 @@ På github naviger ind på en fil som du skal henvise til og gøre som på bille
 Indsæt derefter i din kommentar, nye issue eller andre steder på github
 
 [![Krydshenvisninger til bestemt tekst i en linje.gif](assets/9e1d264363024e905f4f2933f1d9353faee32140.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Krydshenvisninger%20til%20bestemt%20tekst%20i%20en%20linje.mp4)
-
- 
 
 #### Krydshenvisninger i Kommentarer og Pull
 
