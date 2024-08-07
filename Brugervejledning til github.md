@@ -66,7 +66,7 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
 - Inden man går igang med ændringer på et produkt/fil så lav en fetch/pull i github desktop så man har den nyeste version lokalt.
 
-[![Invitation til repository.gif](assets/0181613cf9f04353c78e2a8d31b852b7987f25ab.gif "Download i høj  videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Invitation%20til%20repository.mp4 )
+[![Invitation til repository.gif](assets/0181613cf9f04353c78e2a8d31b852b7987f25ab.gif "Klik for at download i høj  videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Invitation%20til%20repository.mp4 )
 
 ### Hvordan opretter man et nyt produkt
 
@@ -86,7 +86,7 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
 8. For at tilføje indhold på det nye produkt så følg guiden "Hvordan Lægges produkt rettelser på github" men hvor du først opretter en fil kald FILNAVN.md + en assets folder til billeder i roden af github folderen
 
-[![Hvordan opretter man et nyt produkt.gif](assets/54f1848ca394253acae36b55222e7be1d0657a93.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20opretter%20man%20et%20nyt%20produkt.mp4)
+[![Hvordan opretter man et nyt produkt.gif](assets/54f1848ca394253acae36b55222e7be1d0657a93.gif "Klik for at download i høj  videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20opretter%20man%20et%20nyt%20produkt.mp4)
 
 ### Markdown editor (MarkText)
 
@@ -104,7 +104,7 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
 6. Afslut med at save "ctrl+s" og derefter gå ind i programmet github desktop og commit+push
 
-[![Markdown editor (MarkText).gif](assets/f94107bf480a121dc00e69ebeac51272fa8a397a.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Markdown%20editor%20(MarkText).mp4)
+[![Markdown editor (MarkText).gif](assets/f94107bf480a121dc00e69ebeac51272fa8a397a.gif "Klik for at download i høj  videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Markdown%20editor%20(MarkText).mp4)
 
 ### Hent produkt repository til egen computer
 
@@ -112,7 +112,7 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
 2. Vælg add og clone og vælg fra listen, hvis du ikke er tilføjet som admin eller writer på et repository så skal du på github i det repository som du vil arbejde i, vælge "Code" og kopier linket i til github desktop (Add->clone>url)
 
-[![Hent produkt repository til egen computer.gif](assets/47268321807b15e5119e85a958b6b445dfb88b72.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hent%20produkt%20repository%20til%20egen%20computer.mp4)
+[![Hent produkt repository til egen computer.gif](assets/47268321807b15e5119e85a958b6b445dfb88b72.gif "Klik for at download i høj  videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hent%20produkt%20repository%20til%20egen%20computer.mp4)
 
 #### Tilføj billeder, ved nyt produkt eller rediger produkt (VIGTIGT)
 
@@ -159,7 +159,7 @@ Hvis du ikke er admin men Contributor (Bidragyder) så skal du oprette en branch
 
 Hvis du er admin og ikke skal lave en branch før du pusher dine ændringer så er det nemt med Github desktop. Tryk commit nede til venstre med en besked og push kommer frem i midten
 
-[![Hvordan Lægges produkt rettelser på github.gif](assets/7df46ecccf11b8861c5da106922a3ed92787a176.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20L%C3%A6gges%20produkt%20rettelser%20p%C3%A5%20github.mp4)
+[![Hvordan Lægges produkt rettelser på github.gif](assets/7df46ecccf11b8861c5da106922a3ed92787a176.gif "Klik for at download i høj  videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20L%C3%A6gges%20produkt%20rettelser%20p%C3%A5%20github.mp4)
 
 #### Merge (flet filer sammen)
 
@@ -347,7 +347,7 @@ vejledning:
    
    - Når alle oplysninger er udfyldt, klik på `Publish release` knappen.
 
-[![Hvordan oprettes tags og releases.gif](assets/5216d2c5687a18ba403f3ce0a074b8d076e85ae5.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20oprettes%20tags%20og%20releases.mp4)
+[![Hvordan oprettes tags og releases.gif](assets/5216d2c5687a18ba403f3ce0a074b8d076e85ae5.gif "Klik for at download i høj  videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20oprettes%20tags%20og%20releases.mp4)
 
 ### Issues og krydshenvisninger guide
 
@@ -412,7 +412,7 @@ På github naviger ind på en fil som du skal henvise til og gøre som på bille
 
 Indsæt derefter i din kommentar, nye issue eller andre steder på github
 
-[![Krydshenvisninger til bestemt tekst i en linje.gif](assets/9e1d264363024e905f4f2933f1d9353faee32140.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Krydshenvisninger%20til%20bestemt%20tekst%20i%20en%20linje.mp4)
+[![Krydshenvisninger til bestemt tekst i en linje.gif](assets/9e1d264363024e905f4f2933f1d9353faee32140.gif "Klik for at download i høj  videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Krydshenvisninger%20til%20bestemt%20tekst%20i%20en%20linje.mp4)
 
 #### Krydshenvisninger i Kommentarer og Pull
 
