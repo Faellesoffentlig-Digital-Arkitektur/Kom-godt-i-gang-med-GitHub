@@ -5,18 +5,14 @@
 **Github desktop** Bruges til at få sine ændringer op til github og hente nyeste version (installer) 
 [https://desktop.github.com](https://desktop.github.com)
 
-
 **MarkText** Brugervenlig måde at lave overskrifter, tabeller m.m. ala word program til markdown, gratis program (installer)
-[https://www.marktext.cc/
-](https://www.marktext.cc/)
+[https://www.marktext.cc/](https://www.marktext.cc/)
 
 **Github.com** (Til merge, issues + evt. wiki (howto guides) + projects til opgaver og issues med forskellige views )
 [Github.com](https://github.com)
 
-
 **Html-to-markdown** (Tag en del af en html fil og Konverter til markdown, men der er noget som skal justeres efterfølgende (fx. billeder, links).
 [https://htmlmarkdown.com]([https://htmlmarkdown.com](https://htmlmarkdown.com))
-
 
 **Word fil til markdown** - Konverter fra word til markdown
 [https://mconverter.eu/convert/docx/md/](https://mconverter.eu/convert/docx/md/)
@@ -70,7 +66,7 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
 - Inden man går igang med ændringer på et produkt/fil så lav en fetch/pull i github desktop så man har den nyeste version lokalt.
 
-[![Invitation til repository.gif](assets/0181613cf9f04353c78e2a8d31b852b7987f25ab.gif)](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Invitation%20til%20repository.mp4)
+[![Invitation til repository.gif](assets/0181613cf9f04353c78e2a8d31b852b7987f25ab.gif "Download i høj  videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Invitation%20til%20repository.mp4 )
 
 ### Hvordan opretter man et nyt produkt
 
@@ -453,7 +449,7 @@ lettere for brugerne at navigere og finde relevant information.
 
 ### Hvordan sletter man en commit ved hjælp af github desktop
 
-#### 1. Åbn GitHub Desktop
+#### Åbn GitHub Desktop
 
 For at slette en tidligere commit i GitHub Desktop skal du følge disse trin:
 
