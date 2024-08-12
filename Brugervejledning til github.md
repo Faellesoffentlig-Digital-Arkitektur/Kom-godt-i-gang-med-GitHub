@@ -21,7 +21,17 @@
 
 ### Invitation til repository
 
-Start med at få github brugernavn$ $på den eller dem som skal inviteres
+#### Repository Roler
+
+**Collaborators uden write** 
+Bruger som kan lave en branches, lave ændringer og lave en pull request som admin tager stilling til og skal merges med main branch
+
+**Owner, Admin, Maintainer og Collaborator med write**
+Kan push direkte til main repository og godkende pull requests fra Collaborators og folk ude fra.
+
+#### Repository Invitation
+
+Start med at få github brugernavn$ $ på den eller dem som skal inviteres
 
 1. **Gå til dit repository**:
    
@@ -232,7 +242,7 @@ hvilke ændringer der skal beholdes.
 
 2. **Rediger filen** for at løse konflikten. Dette
    kan gøres direkte i GitHub Desktop eller ved at åbne filen i din
-   foretrukne teksteditor.
+   foretrukne teksteditor. (Der laves markeringer de steder hvor konflikten er, man sletter det tekst der skl væk i det markeret område inkl. markering)
 
 3. Når konflikten er løst, **marker konflikten som løst** i GitHub Desktop ved at klikke på "Mark as resolved".
 
