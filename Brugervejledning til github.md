@@ -88,6 +88,14 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
 [![Hvordan opretter man et nyt produkt.gif](assets/54f1848ca394253acae36b55222e7be1d0657a93.gif "Klik for at download i høj videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20opretter%20man%20et%20nyt%20produkt.mp4)
 
+### Hent produkt repository til egen computer
+
+1. Åben Github desktop hvor du er logget ind med din bruger 
+
+2. Vælg add og clone og vælg fra listen, hvis du ikke er tilføjet som admin eller writer på et repository så skal du på github i det repository som du vil arbejde i, vælge "Code" og kopier linket i til github desktop (Add->clone>url)
+
+[![Hent produkt repository til egen computer.gif](assets/47268321807b15e5119e85a958b6b445dfb88b72.gif "Klik for at download i høj  videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hent%20produkt%20repository%20til%20egen%20computer.mp4)
+
 ### Markdown editor (MarkText)
 
 #### Rediger markdown fil i MarkText
@@ -104,24 +112,26 @@ Start med at få github brugernavn$ $på den eller dem som skal inviteres
 
 6. Afslut med at save "ctrl+s" og derefter gå ind i programmet github desktop og commit+push
 
+**Opret nye md fil** ved at hover musen oven over området hvor teksten står så kommer der et + som laver en ny fil, når du trykker gem (ctrl+s) som spørg den om hvad filen skal hedde.
+
 [![Markdown editor (MarkText).gif](assets/f94107bf480a121dc00e69ebeac51272fa8a397a.gif "Klik for at download i høj videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Markdown%20editor%20(MarkText).mp4)
 
-### Hent produkt repository til egen computer
+#### Link opsætning i MarkText
 
-1. Åben Github desktop hvor du er logget ind med din bruger 
+1. Skriv din links tekst og marker teksten, der kommer en menu lige over markeringen, hvor du kan trykke på "kæde" ikon det er vigtigt at du tilføjer en title eks. 
 
-2. Vælg add og clone og vælg fra listen, hvis du ikke er tilføjet som admin eller writer på et repository så skal du på github i det repository som du vil arbejde i, vælge "Code" og kopier linket i til github desktop (Add->clone>url)
+```
+[Link tekst](https://link "title på link")
+```
 
-[![Hent produkt repository til egen computer.gif](assets/47268321807b15e5119e85a958b6b445dfb88b72.gif "Klik for at download i høj  videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hent%20produkt%20repository%20til%20egen%20computer.mp4)
+Title er vigtigt pga. SEO på hjemmesiden og hjælper skærmlæsere
 
-#### Tilføj billeder, ved nyt produkt eller rediger produkt (VIGTIGT)
+#### Tilføj billeder i MarkText, ved nyt produkt eller rediger produkt (VIGTIGT)
 
 1. Oppe i venstre hjørne klik på de 3 streger og vælg "File" - > Preferences -> image
 2. Under Default action.. Vælg: "Copy image to designated relative assets or global local folder"
 3. Klik "Prefer relative assets folder" som den er sat til (grøn).
 4. Drag 'n' drop nu billeder fra assets folderen til de steder hvor der mangler billeder
-
-Merge og håndtering af konflikter
 
 ### Hvordan Lægges produkt rettelser på github
 
@@ -502,6 +512,8 @@ Hvis du ønsker at annullere ændringerne fra en bestemt commit, er dette den ri
 
 5. Klik ude til højre på "Add assignees" og vælg den eller de personener som skal på opgaven (den/de vil få en mail med en notifikation)
 
+6. Når et issue lukkes pga. det er udført, så kommer den over i **Done** kolonnen i projektet
+
 **Info:** Draft betyder at opgaven ikke er fra issues men oprettet under projektet og ikke konverteret til et issue. Draft bruges til alle andre typer opgaver om ikke har noget med  issues at gøre.
 
 #### Sådan opretter man kategori boksen
@@ -527,6 +539,8 @@ Hvis du ønsker at annullere ændringerne fra en bestemt commit, er dette den ri
 - Når der er issues kan man knytte et issue til et projekt og på den måde bedre holde styr på hvor issue er i processen. (gøres ude til højre på et issue)
 
 - Man kan tilføje forskellige label m.m. til en opgave/issue. Man kan tilføje nye hvis man klikker på de 3 prikker ude til højre på et projekt, derefter -> settings -> + New field (Der kan du vælge flere typer, hvis man vil have en tekst labels så vælg text og de kan sorteres, hvis du vælger numre så kan man ikke drag'n'drop som man har lyst til i todos)
+
+- Man kan tilføje et issue til flere forskellige projekter, men hvis man flytter et issue fra en kolonne i et projekt til en anden kolonne så sker det ikke i det andet projekt så man skal passe på med at tilføje et issue til flere projekter. Hvis et issue lukkes så fjernes det fra begge projekter
 
 ### FAQ
 
