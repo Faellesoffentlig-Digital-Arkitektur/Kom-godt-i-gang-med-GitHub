@@ -129,12 +129,27 @@ Start med at få github brugernavn$ $ på den eller dem som skal inviteres
 #### Link opsætning i MarkText
 
 1. Skriv din links tekst og marker teksten, der kommer en menu lige over markeringen, hvor du kan trykke på "kæde" ikon det er vigtigt at du tilføjer en title eks. 
+   
+
+**Link med title tekst:**
 
 ```
-[Link tekst](https://link "title på link")
+[Link tekst](https://link "Title tekst på link")
 ```
 
-Title er vigtigt pga. SEO på hjemmesiden og hjælper skærmlæsere
+**Billede med alt tekst og title tekst:**
+
+```
+![Alt tekst på billede](https://example.com/sunset.jpg "Title tekst på billede")
+```
+
+**Billede med alt tekst, title tekst og link:**
+
+```
+[![Alt tekst på billede](assets/BILLEDNAVN "Title tekst på billede")](link til side eller fil)
+```
+
+Title er vigtigt pga. SEO på hjemmesiden og hjælper skærmlæsere samt hjemmeside skal igennem en godkendelse procedure
 
 #### Tilføj billeder i MarkText, ved nyt produkt eller rediger produkt (VIGTIGT)
 
@@ -469,8 +484,6 @@ lettere for brugerne at navigere og finde relevant information.
 
 ### Hvordan sletter man en commit ved hjælp af github desktop
 
-#### Åbn GitHub Desktop
-
 For at slette en tidligere commit i GitHub Desktop skal du følge disse trin:
 
 1. Åbn GitHub Desktop.
@@ -492,7 +505,7 @@ Hvis du ønsker at annullere ændringerne fra en bestemt commit, er dette den ri
 
 - klik på den version (release) som du skal bruge
 
-![Hvordan finder man gamle versioner af et produkt.png](assets/75b98b4913536ef88bec803d0aefcfdbc9aadb3e.png)
+![Hvordan finder man gamle versioner af et produkt](assets/75b98b4913536ef88bec803d0aefcfdbc9aadb3e.png)
 
 ### Projekter
 
