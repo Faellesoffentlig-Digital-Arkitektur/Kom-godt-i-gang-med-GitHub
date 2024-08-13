@@ -58,3 +58,45 @@ er noget som skal justeres efterfølgende (fx. billeder).
 - Nede til venstre skal du nu skrive en Summary beskrivelse og klikke commit og push origin
 
 - Hvis der ikke er andre som arbejder på main branch og du ikke har fået en fejl så er dine ændringer nu offentlige.
+
+
+**Skal tage fixes i produkterne:**
+
+Se om der er links til eksterne sider som har 404 fejl
+
+Hvem skal finde de død links og lave liste med død links og link tekst?
+Det skal studentermedhjælpere. lav liste med døde links
+
+Hvem skal ændre de døde links så de virker igen?
+Det skal produkt ansvarlige
+
+Brug fx. til at finde døde links automatisk
+https://www.deadlinkchecker.com/ (Virker for det meste) - vælg: Check single webpage
+https://www.drlinkcheck.com/ (begrænset gratis søgninger)
+
+Kan se på fx.
+https://arkitektur.digst.dk/referencearkitekturer/referencearkitektur-observation-og-maaling#eksempler-p-anvendelse
+At der er 5 links som får 404 fejl.
+
+Har også testet denne hvor der også er mange døde links ca. 10
+https://github.com/Faellesoffentlig-Digital-Arkitektur/Erfaringsopsamling-om-softwarerobotter-og-brugerstyring/blob/main/Erfaringsopsamling%20om%20softwarerobotter%20og%20brugerstyring.md
+
+SEO
+Skal bruges når produkter skal over på ny hjemmeside
+
+Skal indskrives i md filerne. eks.
+Indsæt nuværende alt tekst i både alt og title tekst
+
+Link med title tekst:
+[Link tekst](https://link "Title tekst på link")
+
+Billede med alt tekst og title tekst:
+![Alt tekst på billede](https://example.com/sunset.jpg "Title tekst på billede")
+
+Billede med alt tekst, title tekst og link:
+ [![Alt tekst på billede](assets/BILLEDNAVN "Title tekst på billede")](link til side eller fil)
+
+For at ændre alt og title tekst så skal man se sourcecode. tryk Ctrl+e og find billedet hvor der skal tekster på.
+
+
+
