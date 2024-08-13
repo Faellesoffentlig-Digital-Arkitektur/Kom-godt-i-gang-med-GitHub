@@ -129,7 +129,6 @@ Start med at få github brugernavn$ $ på den eller dem som skal inviteres
 #### Link opsætning i MarkText
 
 1. Skriv din links tekst og marker teksten, der kommer en menu lige over markeringen, hvor du kan trykke på "kæde" ikon det er vigtigt at du tilføjer en title eks. 
-   
 
 **Link med title tekst:**
 
@@ -480,7 +479,7 @@ lettere for brugerne at navigere og finde relevant information.
 
 - Klik på pilen til højre for unwatch
 
-![Ændre notifikationer på et repository.png](assets/3034c681dc9cc668c15b5e2778a80515a71e7c19.png) 
+![Ændre notifikationer på et repository](assets/3034c681dc9cc668c15b5e2778a80515a71e7c19.png "Ændre notifikationer på et repository") 
 
 ### Hvordan sletter man en commit ved hjælp af github desktop
 
