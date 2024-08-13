@@ -9,7 +9,10 @@ markdown og læg op på github repo.
 **1. Værktøjer**
 
 **Github desktop**
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 3c4076e (Update Produkt fra html til md guide.md)
 [<u>https://desktop.github.com/</u>](https://desktop.github.com/) Bruges
 til at få sine ændringer op til github og hente nyeste version
 **(installer)**
