@@ -9,17 +9,10 @@ markdown og læg op på github repo.
 **1. Værktøjer**
 
 **Github desktop**
-<<<<<<< HEAD
 
-[<u>https://desktop.github.com/</u>](https://desktop.github.com/) Bruges
-til at få sine ændringer op til github og hente nyeste version
-**(installer på computer)**
-
-=======
 [<u>https://desktop.github.com/</u>](https://desktop.github.com/) Bruges
 til at få sine ændringer op til github og hente nyeste version
 **(installer)**
->>>>>>> parent of 3c4076e (Update Produkt fra html til md guide.md)
 
 **MarkText** [<u>https://www.marktext.cc/</u>](https://www.marktext.cc/)
 Brugervenlig måde at lave overskrifter, tabeller m.m. ala word program
