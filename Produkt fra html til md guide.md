@@ -59,7 +59,6 @@ er noget som skal justeres efterfølgende (fx. billeder).
 
 - Hvis der ikke er andre som arbejder på main branch og du ikke har fået en fejl så er dine ændringer nu offentlige.
 
-
 **Skal tage fixes i produkterne:**
 
 Se om der er links til eksterne sider som har 404 fejl
@@ -88,15 +87,21 @@ Skal indskrives i md filerne. eks.
 Indsæt nuværende alt tekst i både alt og title tekst
 
 Link med title tekst:
-[Link tekst](https://link "Title tekst på link")
+
+```
+ [Link tekst](https://link "Title tekst på link")
+```
 
 Billede med alt tekst og title tekst:
+
+```
 ![Alt tekst på billede](https://example.com/sunset.jpg "Title tekst på billede")
+```
 
 Billede med alt tekst, title tekst og link:
- [![Alt tekst på billede](assets/BILLEDNAVN "Title tekst på billede")](link til side eller fil)
+
+```
+[![Alt tekst på billede](assets/BILLEDNAVN "Title tekst på billede")](link til side eller fil)
+```
 
 For at ændre alt og title tekst så skal man se sourcecode. tryk Ctrl+e og find billedet hvor der skal tekster på.
-
-
-
