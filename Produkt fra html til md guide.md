@@ -11,7 +11,7 @@ markdown og læg op på github repo.
 **Github desktop**
 [<u>https://desktop.github.com/</u>](https://desktop.github.com/) Bruges
 til at få sine ændringer op til github og hente nyeste version
-**(installer)**
+**(installer på computer)**
 
 **MarkText** [<u>https://www.marktext.cc/</u>](https://www.marktext.cc/)
 Brugervenlig måde at lave overskrifter, tabeller m.m. ala word program
