@@ -262,10 +262,9 @@ hvilke ændringer der skal beholdes.
 
 4. **Commit de løste konflikter** ved at skrive en
    commit-besked og klikke på "Commit merge".
+   
 
-
-
-[![merge konflikt.gif](assets/71d9c5162f6a6946783d34d4fa29b11bd1bc3393.gif "Klik for at download i høj videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20L%C3%A6gges%20produkt%20rettelser%20p%C3%A5%20github.mp4)
+[![merge konflikt.gif](assets/71d9c5162f6a6946783d34d4fa29b11bd1bc3393.gif "Klik for at download i høj videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Merge%20konflikt.mp4)
 
 ### Sådan Konfigurerer du Krav om Review før Merge
 
