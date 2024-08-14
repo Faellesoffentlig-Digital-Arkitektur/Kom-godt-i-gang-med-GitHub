@@ -514,7 +514,7 @@ lettere for brugerne at navigere og finde relevant information.
 
 4. **Kommunikation**
    
-   - Informer dit team, hvis du arbejder på en delt repository, da force push kan overskrive historik.
+   - Informer dit team, hvis du arbejder på en delt repository, da force push kan overskrive deres ændringer.
      
 
 ### Hvordan finder man gamle versioner af et produkt (releases)
