@@ -17,6 +17,9 @@
 **Word fil til markdown** - Konverter fra word til markdown
 [https://mconverter.eu/convert/docx/md/](https://mconverter.eu/convert/docx/md/)
 
+**video to gif - Konverter video fil til gif** 
+[openAviToGif download | SourceForge.net](https://sourceforge.net/projects/openavitogif/)
+
 ## Guides
 
 ### Invitation til repository
@@ -484,18 +487,35 @@ lettere for brugerne at navigere og finde relevant information.
 
 ![Ændre notifikationer på et repository](assets/3034c681dc9cc668c15b5e2778a80515a71e7c19.png "Ændre notifikationer på et repository") 
 
-### Hvordan sletter man en commit ved hjælp af github desktop
+### Hvordan fjerner man forrige commits som allerede er pushed (avancerede)
 
-For at slette en tidligere commit i GitHub Desktop skal du følge disse trin:
+1. **Find Commit-hash**
+   
+   - Åbn GitHub Desktop, gå til "History", og find den ønskede commit.
+   - Notér commit-hashen (SHA).
 
-1. Åbn GitHub Desktop.
-2. Klik på fanen “Historik” i venstre sidepanel.
-3. Højreklik på den commit, du vil slette vælg “Revert changes in commit ”
-4. Commit og push 
+2. **Nulstil til Commit**
+   
+   - Højreklik på commiten i GitHub Desktop og vælg "Reset to Commit".
+   
+   - Hvis du ikke kan vælge "Reset to Commit" brug terminalen:
+     
+     Kopier kode i git mappen du arbejder på
+     
+     `git reset --hard <commit-hash>`
 
-**Bemærk**, at når du sletter en tidligere commit, oprettes der også en ny commit, der fjerner ændringerne fra den valgte commit.
+3. **Force Push til Remote**
+   
+   - Kør følgende kommando for at skubbe ændringerne til remote:
+     
+     Kopier kode i git mappen du arbejder på
+     
+     `git push origin <branch-name> --force`
 
-Hvis du ønsker at annullere ændringerne fra en bestemt commit, er dette den rigtige fremgangsmåde. 
+4. **Kommunikation**
+   
+   - Informer dit team, hvis du arbejder på en delt repository, da force push kan overskrive historik.
+     
 
 ### Hvordan finder man gamle versioner af et produkt (releases)
 
