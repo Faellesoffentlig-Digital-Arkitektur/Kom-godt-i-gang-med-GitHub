@@ -391,7 +391,7 @@ vejledning:
 
 Hvordan bruges issue-funktionen i GitHub i public repositories
 · Den interne proces – fra issue til rettelse
-· Notifikation vedr. issues
+· Notifikationer vedr. issues
 
 #### Issues
 
@@ -485,7 +485,7 @@ lettere for brugerne at navigere og finde relevant information.
 
 ![Ændre notifikationer på et repository](assets/3034c681dc9cc668c15b5e2778a80515a71e7c19.png "Ændre notifikationer på et repository") 
 
-### Hvordan fjerner man forrige commits som allerede er pushed (avancerede)
+### Hvordan fjerner man forrige commits som allerede er pushed (avancerede git)
 
 1. **Find Commit-hash**
    
@@ -530,7 +530,7 @@ lettere for brugerne at navigere og finde relevant information.
 
 #### Tildel et issue til et projekt på GitHub
 
-1. Efter at have oprettet dit issue, vil du se det nye issue på listen. Klik på issue-titlen for at åbne det.
+1. Efter at have oprettet dit issue, vil du se det nye issue på listen. Klik på issue-titlen for at åbne det. Det kan også gøres hvis andre opretter issues på et repository.
 2. I højre side under "Projects", klik på "Projects" dropdown-menuen.
 3. Vælg det projekt, du vil tildele issue til. Hvis der ikke er nogen projekter tilgængelige, skal du først oprette et projekt.
 
@@ -556,7 +556,7 @@ lettere for brugerne at navigere og finde relevant information.
 
 6. Når et issue lukkes pga. det er udført, så kommer den over i **Done** kolonnen i projektet
 
-**Info:** Draft betyder at opgaven ikke er fra issues men oprettet under projektet og ikke konverteret til et issue. Draft bruges til alle andre typer opgaver om ikke har noget med  issues at gøre.
+**Info:** Draft betyder at opgaven ikke er fra issues men oprettet under projektet og ikke konverteret til et issue. Draft bruges til alle andre typer opgaver som ikke har noget med issues at gøre.
 
 #### Sådan opretter man kategori boksen
 
@@ -580,9 +580,9 @@ lettere for brugerne at navigere og finde relevant information.
 
 - Når der er issues kan man knytte et issue til et projekt og på den måde bedre holde styr på hvor issue er i processen. (gøres ude til højre på et issue)
 
-- Man kan tilføje forskellige label m.m. til en opgave/issue. Man kan tilføje nye hvis man klikker på de 3 prikker ude til højre på et projekt, derefter -> settings -> + New field (Der kan du vælge flere typer, hvis man vil have en tekst labels så vælg text og de kan sorteres, hvis du vælger numre så kan man ikke drag'n'drop som man har lyst til i todos)
+- Man kan tilføje forskellige label m.m. til en opgave/issue. Man kan tilføje nye hvis man klikker på de 3 prikker ude til højre på et projekt, derefter -> settings -> + New field (Der kan du vælge flere typer, hvis man vil have en tekst labels så vælg text og de kan sorteres, hvis du vælger numre så kan man ikke drag'n'drop (sorter rækkefølge) som man har lyst til i todos)
 
-- Man kan tilføje et issue til flere forskellige projekter, men hvis man flytter et issue fra en kolonne i et projekt til en anden kolonne så sker det ikke i det andet projekt så man skal passe på med at tilføje et issue til flere projekter. Hvis et issue lukkes så fjernes det fra begge projekter
+- Man kan tilføje et issue til flere forskellige projekter, men hvis man flytter et issue fra en kolonne i et projekt til en anden kolonne så sker det ikke i det andet projekt så man skal passe på med at tilføje et issue til flere projekter. Hvis et issue lukkes så flyttes det over i done på begge projekter
 
 ### FAQ
 
@@ -604,13 +604,13 @@ lettere for brugerne at navigere og finde relevant information.
 
 #### Hvad er merge
 
-- **Opret en pull request:** Anmod om at flette ændringer fra din gren til en anden gren.
+- **Opret en pull request:** Anmod om at flette ændringer fra din branch til en anden branch (gren).
 - **Gennemgang:** Andre teammedlemmer ser på dine ændringer og godkender dem.
-- **Fletning (merge):** Når ændringerne er godkendt, bliver de kombineret med målgrenen.
+- **Fletning (merge):** Når ændringerne er godkendt, bliver de kombineret med main.
 
 #### Github desktop hvad sker der hvis man laver en pull og der er en ændring på en fil, som man kun har ændret i lokalt
 
-Når du laver en pull i GitHub Desktop og der er ændringer i en fil, som du også har ændret lokalt, vil Git forsøge at fusionere de ændringer. Her er hvad der typisk sker i dette scenarie:
+Når du laver en pull i GitHub Desktop og der er ændringer i en fil, som du også har ændret lokalt, vil Git forsøge at merge de ændringer. Her er hvad der typisk sker i dette scenarie:
 
 1. **Automatisk Fusionering (Merge)**:
    
