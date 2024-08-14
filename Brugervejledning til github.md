@@ -18,7 +18,7 @@
 [https://mconverter.eu/convert/docx/md/](https://mconverter.eu/convert/docx/md/)
 
 **video to gif - Konverter video fil til gif** 
-[openAviToGif download | SourceForge.net](https://sourceforge.net/projects/openavitogif/)
+[openAviToGif](https://sourceforge.net/projects/openavitogif/)
 
 ## Guides
 
