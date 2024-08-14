@@ -2,13 +2,15 @@
 
 ## Værktøjer
 
-**Github desktop** Bruges til at få sine ændringer op til github og hente nyeste version (installer) 
+*Liste opdateret 14 aug. 2024 - tbsn*
+
+**Github desktop** Bruges til at få sine ændringer op til github.com og hente nyeste version (installer) 
 [https://desktop.github.com](https://desktop.github.com)
 
 **MarkText** Brugervenlig måde at lave overskrifter, tabeller m.m. ala word program til markdown, gratis program (installer)
 [https://www.marktext.cc/](https://www.marktext.cc/)
 
-**Github.com** (Til merge, issues + evt. wiki (howto guides) + projects til opgaver og issues med forskellige views )
+**Github.com** (Til merge, issues  (howto guides) + projects til opgaver og issues med forskellige views )
 [Github.com](https://github.com)
 
 **Html-to-markdown** (Tag en del af en html fil og Konverter til markdown, men der er noget som skal justeres efterfølgende (fx. billeder, links).
@@ -27,7 +29,7 @@
 #### Repository Roler
 
 **Collaborators uden write** 
-Bruger som kan lave en branches, lave ændringer og lave en pull request som admin tager stilling til og skal merges med main branch
+Bruger som kan lave branches, lave ændringer og lave en pull request som admin tager stilling til og skal merges med main branch
 
 **Owner, Admin, Maintainer og Collaborator med write**
 Kan push direkte til main repository og godkende pull requests fra Collaborators og folk ude fra.
@@ -67,7 +69,7 @@ Start med at få github brugernavn$ $ på den eller dem som skal inviteres
      repository.
    
    - Når personen accepterer invitationen, vil de få adgang til
-     dit repository afhængigt af den rolle, du har tildelt dem.
+     repository afhængigt af den rolle, du har tildelt dem.
 - **Husk**  
   For at kunne invitere andre til et repository,
   skal du have de nødvendige rettigheder (typisk som ejer eller
@@ -119,7 +121,8 @@ Start med at få github brugernavn$ $ på den eller dem som skal inviteres
 
 3. Der kommer en menu i venstre side af MarkText hvor du kan vælge filen
 
-4. Når filen er åben kan du lave dine rettelser, når du klikker på en linie vil der komme et ikon ude til venstre for linien, der kan du ændre til overskrifter, lists, m.m. Hvis du markere noget tekst kommer der en menu over med muligheder (bold, link m.m.) **INFO:** Indholdsfortegnelse laves ud fra Overskrifter "H1,H2 etc."
+4. Når filen er åben kan du lave dine rettelser, når du klikker på en linie vil der komme et ikon ude til venstre for linien, der kan du ændre til overskrifter, lists, m.m. Hvis du markere noget tekst kommer der en menu over med muligheder (bold, link m.m.) 
+   **INFO:** Indholdsfortegnelse laves ud fra Overskrifter "H1,H2 etc."
 
 5. Tabeller: For at oprette en tabel skal man trykke "CmdOrCtrl +Shift+T""
 
@@ -139,6 +142,8 @@ Start med at få github brugernavn$ $ på den eller dem som skal inviteres
 [Link tekst](https://link "Title tekst på link")
 ```
 
+#### Billede - alt, title tekst og link opsætning
+
 **Billede med alt tekst og title tekst:**
 
 ```
@@ -151,7 +156,7 @@ Start med at få github brugernavn$ $ på den eller dem som skal inviteres
 [![Alt tekst på billede](assets/BILLEDNAVN "Title tekst på billede")](link til side eller fil)
 ```
 
-Title er vigtigt pga. SEO på hjemmesiden og hjælper skærmlæsere samt hjemmeside skal igennem en godkendelse procedure
+Title er vigtigt pga. SEO på hjemmesiden og hjælper skærmlæsere samt hjemmesider skal igennem en godkendelse procedure
 
 #### Tilføj billeder i MarkText, ved nyt produkt eller rediger produkt (VIGTIGT)
 
@@ -164,7 +169,7 @@ Title er vigtigt pga. SEO på hjemmesiden og hjælper skærmlæsere samt hjemmes
 
 #### Opret ny branch (hvis ikke admin)
 
-Hvis du ikke er admin men Contributor (Bidragyder) så skal du oprette en branch (gren med dine ændringer) som du kan push til det repository hvor ændringer skal tilføjes og produkt ansvarlig så vil tage stilling til om ens ændringer kan merges med main :
+Hvis du ikke har write adgang men Contributor (Bidragyder) uden write så skal du oprette en branch (gren med dine ændringer) som du kan push til det repository hvor ændringer skal tilføjes og produkt ansvarlig så vil tage stilling til om ens ændringer kan merges med main sker via en pull request :
 
 ##### Trin 1: Åbn GitHub Desktop
 
@@ -181,7 +186,7 @@ Hvis du ikke er admin men Contributor (Bidragyder) så skal du oprette en branch
 
 ##### Trin 4: Navngiv din branch
 
-1. I pop-up vinduet, der kommer frem, skal du indtaste navnet på den nye branch.
+1. I pop-up vinduet som kommer frem, skal du indtaste navnet på den nye branch.
 2. Vælg, hvilken branch du vil forgrene fra (som regel vil det være "main" eller "master").
 3. Klik på "Create Branch".
 
@@ -189,7 +194,7 @@ Hvis du ikke er admin men Contributor (Bidragyder) så skal du oprette en branch
 
 1. Efter at have oprettet den nye branch, vil GitHub Desktop automatisk skifte til den nye branch.
 2. Du kan nu begynde at arbejde på denne nye branch.
-3. Når du har lavet ændringer og gemt åben github desktop og skriv en commit besked nede til venstre og klik commit og derefter push (står i midten)
+3. Når du har lavet ændringer og gemt. Åben github desktop og skriv en commit besked nede til venstre og klik commit og derefter push (står i midten)
 4. Når det er gjort følg guide "Merge branches ved hjælp af GitHub.com"
 
 #### Push to main (direkte til offentligt produktet - admin)
@@ -254,20 +259,18 @@ dig om det. Du kan så åbne den konfliktfyldte fil ved at klikke på
 filnavnet i GitHub Desktop og manuelt rette konflikten ved at vælge
 hvilke ændringer der skal beholdes.
 
-1. **Klik på den konfliktfyldte fil** i listen
-   over konflikter.
+1. Klik på den konfliktfyldte fil i listen over konflikter.
 
-2. **Rediger filen** for at løse konflikten. Dette
+2. Rediger filen for at løse konflikten. Dette
    kan gøres direkte i GitHub Desktop eller ved at åbne filen i din
-   foretrukne teksteditor. (Der laves markeringer de steder hvor konflikten er, man sletter det tekst der skl væk i det markeret område inkl. markering)
+   foretrukne teksteditor. (Der laves markeringer de steder hvor konflikten er, man sletter det tekst der skal væk i det markeret område inkl. markering)
 
 3. Når konflikten er løst, **marker konflikten som løst** i GitHub Desktop ved at klikke på "Mark as resolved".
 
 4. **Commit de løste konflikter** ved at skrive en
    commit-besked og klikke på "Commit merge".
-   
 
-[![merge konflikt.gif](assets/71d9c5162f6a6946783d34d4fa29b11bd1bc3393.gif "Klik for at download i høj videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Merge%20konflikt.mp4)
+[![Merge konflikt.gif](assets/1b7ef2b425a6b9097b15a2b53ef070b4fc298f46.gif "Klik for at download i høj videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Merge%20konflikt.mp4)
 
 ### Sådan Konfigurerer du Krav om Review før Merge
 
@@ -293,7 +296,7 @@ hvilke ændringer der skal beholdes.
    
    - I feltet "Branch name pattern", indtast navnet på den branch, du vil beskytte. For eksempel, for at beskytte `main` branch, skriv `main`.
 
-7. **Aktivér Review Krav**:
+7. **Aktiver Review Krav**:
    
    - Under sektionen "Require pull request reviews before merging", marker boksen "Require pull request reviews before merging".
    - Du kan vælge yderligere indstillinger:
@@ -339,7 +342,7 @@ vejledning:
 
 2. **Opret et tag**:
    
-   - Commit din ændring hvor der er
+   - Commit din ændring hvor der 
      skal laves en ny release
    
    - Klik på History
@@ -348,7 +351,7 @@ vejledning:
    
    - Klik på `Create tag`
    
-   - Indtast tag-navnet (f.eks., `v1.``3`)
+   - Indtast tag-navnet (f.eks., `v1.3`)
      og en besked, hvis det er nødvendigt.
    
    - Klik på `Create Tag`.
@@ -361,9 +364,6 @@ vejledning:
 #### Opret en release i GitHub.com
 
 1. **Åbn dit repository på GitHub.com**:
-   
-   - Gå til GitHub.com og naviger til
-     dit repository.
 
 2. **Opret en ny release**:
    
@@ -377,12 +377,10 @@ vejledning:
    - Under `Tag version`, vælg det tag, du lige har oprettet i GitHub
      Desktop.
 - Indtast en titel for din release
-   (f.eks., `Version v1.``3`).
+   (f.eks., `Version v1.3`).
 
-- Skriv en beskrivelse af
-   ændringerne i denne release. Du kan inkludere ændringer,
-   forbedringer, eller fejlrettelser, som er inkluderet i denne
-   version.  
+- Skriv en beskrivelse af ændringerne i denne release. Du kan inkludere ændringer,
+   forbedringer, eller fejlrettelser, som er inkluderet i denne version.  
 2. **Publicer releasen**:
    
    - Når alle oplysninger er udfyldt, klik på `Publish release` knappen.
@@ -515,7 +513,6 @@ lettere for brugerne at navigere og finde relevant information.
 4. **Kommunikation**
    
    - Informer dit team, hvis du arbejder på en delt repository, da force push kan overskrive deres ændringer.
-     
 
 ### Hvordan finder man gamle versioner af et produkt (releases)
 
