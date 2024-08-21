@@ -97,7 +97,7 @@ Start med at få github brugernavn$ $ på den eller dem som skal inviteres
 
 6. Tildel nu rettigheder til andre brugere, hvis der er behov for det under settings
 
-7. Evt. udfyld informationer i readme filen, ved at redigere filen på github.com eller via github desktop.
+7. Evt. udfyld informationer i readme filen, ved at redigere filen på github.com eller lokalt med MarkText og github desktop.
 
 8. For at tilføje indhold på det nye produkt så følg guiden "Hvordan Lægges produkt rettelser på github" men hvor du først opretter en fil kald FILNAVN.md + en assets folder til billeder i roden af github folderen
 
@@ -162,8 +162,10 @@ Title er vigtigt pga. SEO på hjemmesiden og hjælper skærmlæsere samt hjemmes
 
 1. Oppe i venstre hjørne klik på de 3 streger og vælg "File" - > Preferences -> image
 2. Under Default action.. Vælg: "Copy image to designated relative assets or global local folder"
-3. Klik "Prefer relative assets folder" som den er sat til (grøn).
-4. Drag 'n' drop nu billeder fra assets folderen til de steder hvor der mangler billeder
+3. Klik "Prefer relative assets folder" som den er sat til (grøn)
+4. Metode 1: Drag 'n' drop nu billeder fra assets folderen (kopier først billeder til assets folderen) til de steder hvor der mangler billeder
+5. Metode 2: Tryk. ctrl+shift+i
+6. Metode 3: Skriv fx. "billede", vælg teksten og tryk på billede ikonet i menuen, lige over teksten
 
 ### Hvordan Lægges produkt rettelser på github
 
@@ -199,9 +201,11 @@ Hvis du ikke har write adgang men Contributor (Bidragyder) uden write så skal d
 
 #### Push to main (direkte til offentligt produktet - admin)
 
-Hvis du er admin og ikke skal lave en branch før du pusher dine ændringer så er det nemt med Github desktop. Tryk commit nede til venstre med en besked og push kommer frem i midten
+Hvis du er admin og ikke skal lave en branch (Aftaltes i team om man skal eller ej) før du pusher dine ændringer så er det nemt med Github desktop. Tryk commit nede til venstre med en besked og push kommer frem i midten
 
 [![Hvordan Lægges produkt rettelser på github.gif](assets/7df46ecccf11b8861c5da106922a3ed92787a176.gif "Klik for at download i høj videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20L%C3%A6gges%20produkt%20rettelser%20p%C3%A5%20github.mp4)
+
+**INFO:** Hvorfor kan det være smart at alle laver en ny branch når man arbejder på et produkt? Når man laver en branch så kan man push når man vil og skal ikke tænke over at alle ser ens ændringer i main med det samme og man kan nå at lave rettelser hvis man har lavet en fejl. Når man har lavet alle sine ændringer så laver man en merge.
 
 #### Merge (flet filer sammen)
 
@@ -415,8 +419,10 @@ Indstillinger for notifikationer kan tilpasses af den enkelte bruger i deres Git
 
 #### krydshenvisninger
 
-For at lave en krydshenvisning til en issue, pull request eller commit på
+For at lave en krydshenvisning til et issue, pull request eller commit på
 GitHub, kan du bruge deres nummer eller hash, som følger:
+
+hash # står efter issue overskriften
 
 - **Issues:** Brug `#` efterfulgt af issue-nummeret.
   
@@ -548,15 +554,15 @@ lettere for brugerne at navigere og finde relevant information.
 
 2. Klik på "Projects" fanen.
 
-3. Klik på det projekt hvor du skal assign en personen
+3. Klik på det projekt hvor du skal assign en person
 
 4. Klik på det issue/draft hvor du skal assign en person
 
 5. Klik ude til højre på "Add assignees" og vælg den eller de personener som skal på opgaven (den/de vil få en mail med en notifikation)
 
-6. Når et issue lukkes pga. det er udført, så kommer den over i **Done** kolonnen i projektet
+6. Når et issue lukkes når det er udført, så kommer den over i **Done** kolonnen i projektet
 
-**Info:** Draft betyder at opgaven ikke er fra issues men oprettet under projektet og ikke konverteret til et issue. Draft bruges til alle andre typer opgaver som ikke har noget med issues at gøre.
+**INFO:** Draft betyder at opgaven ikke er fra issues men oprettet under projektet og ikke konverteret til et issue. Draft bruges til alle andre typer opgaver som ikke har noget med issues at gøre.
 
 #### Sådan opretter man kategori boksen
 
@@ -572,21 +578,15 @@ lettere for brugerne at navigere og finde relevant information.
 
 5. Du kan nu skrive en kategori tekst i dit nye felt i projekt opgaver.
 
-6. INFO: Du kan drag''n'drop dine opgaver som du vil når du laver egne custom fields
+**INFO:** Du kan drag''n'drop dine opgaver som du vil når du laver egne custom fields
 
-
-
-### Github produkter på hjemmesiden
+### Github tekst produkter på hjemmesiden
 
 *Under udvikling klar ca. okt. 2024*
 
-1. Tekst produktet's markdown fil som er "MAIN" hentes over på hjemmeside ved at oprette en side i drupal og vælge side type "github url produkt" der indtastes .md url'en i "raw" format. samt udfyld formfelt med title som bruges til at navngive seo title og  navigaion title (skal være sammen som github title)
+1. Tekst produktet's markdown fil som er "MAIN" hentes over på hjemmeside ved at oprette en side i drupal og vælge side type "github url produkt" der indtastes .md url'en i "raw" format. samt udfyld formfelt med title som bruges til at navngive seo title og  navigation title (skal være den samme som github title)
 
 2. Hvert 24 time vil produktet blive hentet over til hjemmesiden fra github, på den måde vil nye opdateringer automatisk komme på hjemmesiden.
-
-
-
-
 
 ### Projekter FAQ
 
@@ -596,7 +596,7 @@ lettere for brugerne at navigere og finde relevant information.
 
 - Man kan tilføje forskellige label m.m. til en opgave/issue. Man kan tilføje nye hvis man klikker på de 3 prikker ude til højre på et projekt, derefter -> settings -> + New field (Der kan du vælge flere typer, hvis man vil have en tekst labels så vælg text og de kan sorteres, hvis du vælger numre så kan man ikke drag'n'drop (sorter rækkefølge) som man har lyst til i todos)
 
-- Man kan tilføje et issue til flere forskellige projekter, men hvis man flytter et issue fra en kolonne i et projekt til en anden kolonne så sker det ikke i det andet projekt så man skal passe på med at tilføje et issue til flere projekter. Hvis et issue lukkes så flyttes det over i done på begge projekter
+- Man kan tilføje et issue til flere forskellige projekter, men hvis man flytter et issue fra en kolonne i et projekt til en anden kolonne, så sker det ikke i det andet projekt, så man skal passe på med at tilføje et issue til flere projekter. Hvis et issue lukkes så flyttes det over i done på begge projekter
 
 ### FAQ
 
