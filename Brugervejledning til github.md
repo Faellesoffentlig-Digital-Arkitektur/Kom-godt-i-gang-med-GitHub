@@ -576,13 +576,13 @@ lettere for brugerne at navigere og finde relevant information.
 
 
 
-### Github produkter på hjemmeside
+### Github produkter på hjemmesiden
 
-*Under udvikling klar ca. okt.*
+*Under udvikling klar ca. okt. 2024*
 
 1. Tekst produktet's markdown fil som er "MAIN" hentes over på hjemmeside ved at oprette en side i drupal og vælge side type "github url produkt" der indtastes .md url'en i "raw" format. samt udfyld formfelt med title som bruges til at navngive seo title og  navigaion title (skal være sammen som github title)
 
-2. Hvert 24 time vil produktet blive hentet over til hjemmesiden fra github på den måde vil nye opdateringer automatisk komme på hjemmesiden.
+2. Hvert 24 time vil produktet blive hentet over til hjemmesiden fra github, på den måde vil nye opdateringer automatisk komme på hjemmesiden.
 
 
 
