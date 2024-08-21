@@ -572,7 +572,21 @@ lettere for brugerne at navigere og finde relevant information.
 
 5. Du kan nu skrive en kategori tekst i dit nye felt i projekt opgaver.
 
-6. INFO: Du kan drag''n'drop dine opgaver som du vil når du laver egne custom fields, 
+6. INFO: Du kan drag''n'drop dine opgaver som du vil når du laver egne custom fields
+
+
+
+### Github produkter på hjemmeside
+
+*Under udvikling klar ca. okt.*
+
+1. Tekst produktet's markdown fil som er "MAIN" hentes over på hjemmeside ved at oprette en side i drupal og vælge side type "github url produkt" der indtastes .md url'en i "raw" format. samt udfyld formfelt med title som bruges til at navngive seo title og  navigaion title (skal være sammen som github title)
+
+2. Hvert 24 time vil produktet blive hentet over til hjemmesiden fra github på den måde vil nye opdateringer automatisk komme på hjemmesiden.
+
+
+
+
 
 ### Projekter FAQ
 
