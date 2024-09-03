@@ -19,6 +19,10 @@ Der tages højde for dette i processen for drift og vedligehold af produktet
 
 ## Udfasning af produkter
 
+Et udfaset produktet bliver ikke længere supporteret ikke supporteret.
+
+Hvorfor er det relevant at tale om udfasning Produktporteføljen bør til alle tider være relevant og opdateret
+
 Process for udfasning af produkter
 
 1. Gennem servicetjek indikeres det, af den produktansvarlige, at produktet kan være kandidat til udfasning.
