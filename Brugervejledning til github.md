@@ -658,3 +658,7 @@ Når du laver en pull i GitHub Desktop og der er ændringer i en fil, som du ogs
 6. **Udfør en commit** af de ændringer, der blev lavet for at løse konflikten.
 
 7. **Push de ændringer** tilbage til fjernlageret (remote repository).
+
+#### Fejl i tabeller på hjemmeside
+
+Hvis tabellerne ikke vises på hjemmesiden når kommer fra github så er der fordi at der er for mange | | | | | | før tabellen, slet dem i markdown editoren og push til repository og når hjemmesiden synkronisere vil tabellerne virke igen. 
