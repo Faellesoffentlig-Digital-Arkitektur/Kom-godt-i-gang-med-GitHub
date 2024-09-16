@@ -598,6 +598,18 @@ lettere for brugerne at navigere og finde relevant information.
 
 - Man kan tilføje et issue til flere forskellige projekter, men hvis man flytter et issue fra en kolonne i et projekt til en anden kolonne, så sker det ikke i det andet projekt, så man skal passe på med at tilføje et issue til flere projekter. Hvis et issue lukkes så flyttes det over i done på begge projekter
 
+## Hjemmeside integration (2024 hjemmeside)
+
+For at Opsætte FDA produktet på hjemmesiden så alle de nyeste versioner automatisk kommer på hjememsiden så skal man:
+
+1. Find prouktet på github og klik **raw ** ude til højre, derefter kopier urlen som skal indsættes når man oprettet nyt produkt på hjemmesiden.
+
+2. Kopier fx. "Faellesoffentlig-rammearkitektur" og indsæt under side url ved oprettelse.
+
+3. Når du har tilføjet indholder tryk opret produkt.
+
+
+
 ### FAQ
 
 #### Hvad betyder Fetch
