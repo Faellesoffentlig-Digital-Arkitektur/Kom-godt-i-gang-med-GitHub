@@ -600,15 +600,13 @@ lettere for brugerne at navigere og finde relevant information.
 
 ## Hjemmeside integration (2024 hjemmeside)
 
-For at Opsætte FDA produktet på hjemmesiden så alle de nyeste versioner automatisk kommer på hjememsiden så skal man:
+For at Opsætte FDA produktet på hjemmesiden så alle de nyeste versioner automatisk kommer på hjemmesiden så skal man:
 
-1. Find prouktet på github og klik **raw ** ude til højre, derefter kopier urlen som skal indsættes når man oprettet nyt produkt på hjemmesiden.
+1. Find produktet på github og klik **raw ** ude til højre, derefter kopier url'en som skal indsættes når man oprettet nyt produkt på hjemmesiden.
 
-2. Kopier fx. "Faellesoffentlig-rammearkitektur" og indsæt under side url ved oprettelse.
+2. Kopier fx "Faellesoffentlig-rammearkitektur" og indsæt under side url ved oprettelse. (fil navnet uden .md)
 
-3. Når du har tilføjet indholder tryk opret produkt.
-
-
+3. Når du har tilføjet indeholder tryk opret produkt.
 
 ### FAQ
 
