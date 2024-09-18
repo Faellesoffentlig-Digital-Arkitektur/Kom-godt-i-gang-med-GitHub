@@ -604,9 +604,13 @@ For at Opsætte FDA produktet på hjemmesiden så alle de nyeste versioner autom
 
 1. Find produktet på github og klik **raw ** ude til højre, derefter kopier url'en som skal indsættes når man oprettet nyt produkt på hjemmesiden.
 
-2. Kopier fx "Faellesoffentlig-rammearkitektur" og indsæt under side url ved oprettelse. (fil navnet uden .md)
+2. Kopier fx "Faellesoffentlig-rammearkitektur" og indsæt under side url ved oprettelse.
 
-3. Når du har tilføjet indeholder tryk opret produkt.
+3. Log ind på din Drupal hjemmeside og skriv: /admin/github-fetch
+
+4. Når du har tilføjet indhold, tryk: Fetch content.
+
+Hvis du har rettelser til produktet eller alias (seo url) så skal det gøres via github, hvor rettelserne automatisk vil komme på hjemmeside (tjekke for rettelser et par gange i døgnet)
 
 ### FAQ
 
