@@ -158,6 +158,15 @@ Start med at få github brugernavn$ $ på den eller dem som skal inviteres
 
 Title er vigtigt pga. SEO på hjemmesiden og hjælper skærmlæsere samt hjemmesider skal igennem en godkendelse procedure
 
+**Anchor links**
+
+Lav en overskrift fra H1 -> H6 
+Fx. Oversigt over data
+
+```
+[Se oversigt over data](#oversigt-over-data)
+```
+
 #### Tilføj billeder i MarkText, ved nyt produkt eller rediger produkt (VIGTIGT)
 
 1. Oppe i venstre hjørne klik på de 3 streger og vælg "File" - > Preferences -> image
