@@ -99,7 +99,7 @@ Start med at få github brugernavn$ $ på den eller dem som skal inviteres
 
 7. Evt. udfyld informationer i readme filen, ved at redigere filen på github.com eller lokalt med MarkText og github desktop.
 
-8. For at tilføje indhold på det nye produkt så følg guiden "Hvordan Lægges produkt rettelser på github" men hvor du først opretter en fil kald FILNAVN.md + en assets folder til billeder i roden af github folderen
+8. For at tilføje indhold på det nye produkt så følg guiden "Hvordan Lægges produkt rettelser på github" men hvor du først opretter en fil kald FILNAVN.md + en assets folder til billeder i roden af github folderen (<mark>VIGTIGT </mark>fil navnet skal være uden æøå og mellemrum pga. navnet bruges også som url på hjemmesiden, url vil ikke virke hvis den ikke er skrevet korrekt.)
 
 [![Hvordan opretter man et nyt produkt.gif](assets/54f1848ca394253acae36b55222e7be1d0657a93.gif "Klik for at download i høj videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20opretter%20man%20et%20nyt%20produkt.mp4)
 
