@@ -612,6 +612,7 @@ lettere for brugerne at navigere og finde relevant information.
 For at Opsætte FDA produktet på hjemmesiden så alle de nyeste versioner automatisk kommer på hjemmesiden så skal man:
 
 1. Find produktet på github og klik **raw ** ude til højre, derefter kopier url'en som skal indsættes når man oprettet nyt produkt på hjemmesiden.
+   ![](assets/5d659cbb00477041f6560ede5840a4eef5aa8dc9.png)
 
 2. Kopier fx "Faellesoffentlig-rammearkitektur" og indsæt under side url ved oprettelse.
 
@@ -619,7 +620,7 @@ For at Opsætte FDA produktet på hjemmesiden så alle de nyeste versioner autom
 
 4. Når du har tilføjet indhold, tryk: Fetch content.
 
-Hvis du har rettelser til produktet eller alias (seo url) så skal det gøres via github, hvor rettelserne automatisk vil komme på hjemmeside (tjekke for rettelser et par gange i døgnet)
+Hvis du har rettelser til produktet eller alias (seo url) så skal det gøres via github, hvor rettelserne automatisk vil komme på hjemmeside (Drupal "cronjob" tjekker for rettelser et par gange i døgnet)
 
 ### FAQ
 
