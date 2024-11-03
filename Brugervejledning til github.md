@@ -2,7 +2,7 @@
 
 ## Værktøjer
 
-*Liste opdateret 30 sept. 2024 - tbsn*
+*Liste opdateret 03 okt. 2024 - tbsn*
 
 **Github desktop** Bruges til at få sine ændringer op til github.com og hente nyeste version (installer) 
 [https://desktop.github.com](https://desktop.github.com)
