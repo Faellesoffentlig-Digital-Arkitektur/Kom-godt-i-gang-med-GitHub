@@ -2,7 +2,7 @@
 
 ## Værktøjer
 
-*Liste opdateret 14 aug. 2024 - tbsn*
+*Liste opdateret 03 okt. 2024 - tbsn*
 
 **Github desktop** Bruges til at få sine ændringer op til github.com og hente nyeste version (installer) 
 [https://desktop.github.com](https://desktop.github.com)
@@ -99,7 +99,7 @@ Start med at få github brugernavn$ $ på den eller dem som skal inviteres
 
 7. Evt. udfyld informationer i readme filen, ved at redigere filen på github.com eller lokalt med MarkText og github desktop.
 
-8. For at tilføje indhold på det nye produkt så følg guiden "Hvordan Lægges produkt rettelser på github" men hvor du først opretter en fil kald FILNAVN.md + en assets folder til billeder i roden af github folderen
+8. For at tilføje indhold på det nye produkt så følg guiden "Hvordan Lægges produkt rettelser på github" men hvor du først opretter en fil kald FILNAVN.md + en assets folder til billeder i roden af github folderen (<mark>VIGTIGT </mark>fil navnet skal være uden æøå og mellemrum pga. navnet bruges også som url på hjemmesiden, url vil ikke virke hvis den ikke er skrevet korrekt.)
 
 [![Hvordan opretter man et nyt produkt.gif](assets/54f1848ca394253acae36b55222e7be1d0657a93.gif "Klik for at download i høj videoopløsning")](https://github.com/Faellesoffentlig-Digital-Arkitektur/Kom-godt-i-gang-med-GitHub/raw/main/assets/videoguides/Hvordan%20opretter%20man%20et%20nyt%20produkt.mp4)
 
@@ -157,6 +157,15 @@ Start med at få github brugernavn$ $ på den eller dem som skal inviteres
 ```
 
 Title er vigtigt pga. SEO på hjemmesiden og hjælper skærmlæsere samt hjemmesider skal igennem en godkendelse procedure
+
+**Anchor links**
+
+Lav en overskrift fra H1 -> H6 
+Fx. Oversigt over data
+
+```
+[Se oversigt over data](#oversigt-over-data)
+```
 
 #### Tilføj billeder i MarkText, ved nyt produkt eller rediger produkt (VIGTIGT)
 
@@ -598,6 +607,21 @@ lettere for brugerne at navigere og finde relevant information.
 
 - Man kan tilføje et issue til flere forskellige projekter, men hvis man flytter et issue fra en kolonne i et projekt til en anden kolonne, så sker det ikke i det andet projekt, så man skal passe på med at tilføje et issue til flere projekter. Hvis et issue lukkes så flyttes det over i done på begge projekter
 
+## Hjemmeside integration (2024 hjemmeside)
+
+For at Opsætte FDA produktet på hjemmesiden så alle de nyeste versioner automatisk kommer på hjemmesiden så skal man:
+
+1. Find produktet på github og klik **raw ** ude til højre, derefter kopier url'en som skal indsættes når man oprettet nyt produkt på hjemmesiden.
+   ![](assets/5d659cbb00477041f6560ede5840a4eef5aa8dc9.png)
+
+2. Kopier fx "Faellesoffentlig-rammearkitektur" og indsæt under side url ved oprettelse.
+
+3. Log ind på din Drupal hjemmeside og skriv: /admin/github-fetch
+
+4. Når du har tilføjet indhold, tryk: Fetch content.
+
+Hvis du har rettelser til produktet eller alias (seo url) så skal det gøres via github, hvor rettelserne automatisk vil komme på hjemmeside (Drupal "cronjob" tjekker for rettelser et par gange i døgnet)
+
 ### FAQ
 
 #### Hvad betyder Fetch
@@ -658,3 +682,7 @@ Når du laver en pull i GitHub Desktop og der er ændringer i en fil, som du ogs
 6. **Udfør en commit** af de ændringer, der blev lavet for at løse konflikten.
 
 7. **Push de ændringer** tilbage til fjernlageret (remote repository).
+
+#### Fejl i tabeller på hjemmeside
+
+Hvis tabellerne ikke vises på hjemmesiden når kommer fra github så er der fordi at der er for mange | | | | | | før tabellen, slet dem i markdown editoren og push til repository og når hjemmesiden synkronisere vil tabellerne virke igen. 
