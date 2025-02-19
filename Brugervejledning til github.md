@@ -172,7 +172,7 @@ Fx. Oversigt over data
 1. Oppe i venstre hjørne klik på de 3 streger og vælg "File" - > Preferences -> image
 2. Under Default action.. Vælg: "Copy image to designated relative assets or global local folder"
 3. Klik "Prefer relative assets folder" som den er sat til (grøn)
-4. Metode 1: Drag 'n' drop nu billeder fra assets folderen (kopier først billeder til assets folderen) til de steder hvor der mangler billeder
+4. Metode 1: Læg billeder i assets folderen. Drag 'n' drop nu billeder fra assets folderen til de steder hvor der mangler billeder
 5. Metode 2: Tryk. ctrl+shift+i
 6. Metode 3: Skriv fx. "billede", vælg teksten og tryk på billede ikonet i menuen, lige over teksten
 
