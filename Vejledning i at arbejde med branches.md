@@ -69,7 +69,7 @@ Patch bruges som del af versionsnummeret.
 
 ---
 
-### 2. Samarbejde og pull requests
+## Samarbejde og pull requests
 
 Når I er flere om at opdatere en tekstfil:
 
@@ -85,7 +85,7 @@ Når I er flere om at opdatere en tekstfil:
 
 ---
 
-### 3. Versionshistorik og opdatering på FDA
+## Versionshistorik og opdatering på FDA
 
 **Hvor noteres versionen?**
 
@@ -106,7 +106,7 @@ Når I er flere om at opdatere en tekstfil:
 
 ---
 
-### 4. Skal vi bruge "Tags" og "Releases"?
+## Skal vi bruge "Tags" og "Releases"?
 
 **Ja, men med måde.**  
 Brug `Tag` og `Release` til vigtige milepæle. Fx når en ny vejledning er klar til publicering.
@@ -116,7 +116,7 @@ Brug `Tag` og `Release` til vigtige milepæle. Fx når en ny vejledning er klar 
 
 ---
 
-### 5. Opdatering af figurer
+## Opdatering af figurer
 
 - Figurer gemmes typisk i mappen `/figures` eller lignende.
 
@@ -132,7 +132,7 @@ Brug `Tag` og `Release` til vigtige milepæle. Fx når en ny vejledning er klar 
 
 ---
 
-### 6. Webtilgængelighed
+## Webtilgængelighed
 
 Følg disse tjekpunkter:
 
@@ -143,7 +143,7 @@ Følg disse tjekpunkter:
 
 ---
 
-### 7. Sådan redigerer du korrekt
+## Sådan redigerer du korrekt
 
 **Værktøj og visning:**
 
@@ -152,7 +152,7 @@ Følg disse tjekpunkter:
 
 ---
 
-### 8. Forstå de forskellige visninger i en pull request
+## Forstå de forskellige visninger i en pull request
 
 - **Commits:** Vis ændringer over tid. Nyeste nederst.
 - **Files changed:** Her ser du hvad der konkret er ændret. Bruges til review.
@@ -167,6 +167,6 @@ Følg disse tjekpunkter:
 
 ---
 
-### Bonus: Opsæt mails fra GitHub
+## Bonus: Opsæt mails fra GitHub
 
 - Brug din mailklient til at sortere GitHub-mails i egen mappe, fx ved at filtrere på afsender `notifications@github.com`.
