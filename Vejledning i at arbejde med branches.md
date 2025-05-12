@@ -1,10 +1,8 @@
-# Branches
 
-## Brug af branches og review-proces for tekstfiler (.md) i GitHub
+
+# Brug af branches til review-proces for tekstfiler (.md) i GitHub
 
 Denne vejledning beskriver, hvordan vi arbejder effektivt med branches og review-processer i GitHub, når vi opdaterer dokumenter i [Fællesoffentlig Digital Arkitektur](https://github.com/Faellesoffentlig-Digital-Arkitektur). Formålet er at skabe gennemsigtighed, sporbarhed og sikre samarbejde.
-
-
 
 ## Hvad er en branch i GitHub?
 
@@ -118,7 +116,7 @@ Brug `Tag` og `Release` til vigtige milepæle. Fx når en ny vejledning er klar 
 
 ---
 
-### 5. Opdatering af figurer (fx fra Majlen)
+### 5. Opdatering af figurer
 
 - Figurer gemmes typisk i mappen `/figures` eller lignende.
 
