@@ -4,7 +4,7 @@
 
 Denne vejledning beskriver, hvordan vi arbejder effektivt med branches og review-processer i GitHub, når vi opdaterer dokumenter i [Fællesoffentlig Digital Arkitektur](https://github.com/Faellesoffentlig-Digital-Arkitektur). Formålet er at skabe gennemsigtighed, sporbarhed og sikre samarbejde.
 
----
+
 
 ## Hvad er en branch i GitHub?
 
