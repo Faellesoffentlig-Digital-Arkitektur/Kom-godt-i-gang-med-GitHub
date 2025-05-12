@@ -6,7 +6,19 @@ Denne vejledning beskriver, hvordan vi arbejder effektivt med branches og review
 
 ---
 
-### 1. Navngivning  og oprettelse af branches
+## Hvad er en branch i GitHub?
+
+En **branch** (gren) i GitHub er en kopi af koden eller dokumenterne i et repository, hvor du kan lave ændringer uden at påvirke hovedversionen (`main`). Det giver mulighed for at arbejde sikkert og parallelt med fx rettelser, nye afsnit eller store opdateringer – indtil ændringerne er klar til at blive flettet (merged) tilbage til hovedversionen.
+
+> 💡 Man bruger branches, når man vil:
+> 
+> - arbejde på noget uden at forstyrre det eksisterende
+> - samarbejde om ændringer
+> - få overblik og struktur i versionshistorikken
+
+Typisk opretter man en ny branch, laver sine ændringer, og når de er klar, laver man en **pull request**, så andre kan kommentere og godkende.
+
+## Navngivning af branches
 
 **Branch-navne bør følge formatet:**
 
@@ -44,7 +56,7 @@ Patch bruges som del af versionsnummeret.
 > 
 > Eksempel: `2.1.3` betyder: 2. version med én mindre opdatering og tre fejlrettelser.
 
-### Oprettelse af en ny branch
+## Oprettelse af en ny branch
 
 **Sådan opretter du en ny branch i GitHub Desktop:**
 
@@ -80,6 +92,7 @@ Når I er flere om at opdatere en tekstfil:
 **Hvor noteres versionen?**
 
 - Nederst i dokumentet i en sektion kaldet fx `## Versionshistorik`.
+
 - Brug format:
   
   ```
@@ -108,8 +121,11 @@ Brug `Tag` og `Release` til vigtige milepæle. Fx når en ny vejledning er klar 
 ### 5. Opdatering af figurer (fx fra Majlen)
 
 - Figurer gemmes typisk i mappen `/figures` eller lignende.
+
 - Når du udskifter en figur:
+  
   - Upload den nye via “Upload files”-funktionen i GitHub.
+  
   - Opdater linket i .md-filen:
     
     ```md
