@@ -97,7 +97,7 @@ Når I er flere om at opdatere en tekstfil:
   - v2.1.2 (2025-05-12): Tilføjet afsnit om branches og review-proces. [Birgitte Buchhave]
   ```
 
-**Opdateringer i Drubal/FDA:**
+**Opdateringer i Drupal/FDA:**
 
 - Den produktansvarlige opdaterer:
   - **“Seneste opdateringsdato”** og **versionsnummer** i metadata-feltet.
