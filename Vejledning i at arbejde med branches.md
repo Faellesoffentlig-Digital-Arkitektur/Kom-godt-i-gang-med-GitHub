@@ -6,7 +6,7 @@ Denne vejledning beskriver, hvordan vi arbejder effektivt med branches og review
 
 ---
 
-### 1. Navngivning af branches
+### 1. Navngivning  og oprettelse af branches
 
 **Branch-navne bør følge formatet:**
 
@@ -30,11 +30,38 @@ Denne vejledning beskriver, hvordan vi arbejder effektivt med branches og review
   - Øg `MINOR` ved nye funktioner eller afsnit.
   - Øg `MAJOR` ved gennemgribende ændringer.
 
+Vi anvender `Fix` og ikke `PATCH` som typeangivelse, da det er en kort betegnelse for “bug fix” eller “fejlrettelse”. Et eksempel kan være: fix_stavefejl_v2.1.3. Det signalerer, at formålet med branchen er at rette noget.
+
+Patch bruges som del af versionsnummeret.
+
+**Hvad er SemVer?**
+
+> SemVer (Semantic Versioning) er en metode til at navngive versioner på en ensartet og informativ måde. Den anvender tre tal:
+> 
+> - **MAJOR** – ændres ved inkompatible eller gennemgribende ændringer
+> - **MINOR** – ændres når nye funktioner eller afsnit tilføjes, uden at bryde eksisterende
+> - **PATCH** – ændres ved fejlrettelser eller små forbedringer
+> 
+> Eksempel: `2.1.3` betyder: 2. version med én mindre opdatering og tre fejlrettelser.
+
+### Oprettelse af en ny branch
+
+**Sådan opretter du en ny branch i GitHub Desktop:**
+
+1. Åbn GitHub Desktop og vælg det relevante repository.
+2. Klik i øverste venstre hjørne på branch-dropdown (hvor der fx står `main`).
+3. Klik på **"New branch"**.
+4. Giv branchen et navn, fx `minor_reviewguideline_v2.1.2`, og klik på **"Create Branch"**.
+5. Du skifter automatisk til den nye branch, og dine ændringer vil nu blive knyttet hertil.
+6. Når du er klar, klik på **"Push origin"** for at sende branchen til GitHub.
+
+> 💡 Sørg for, at du er i den rigtige branch, når du laver ændringer. Du kan altid skifte branch i dropdown-menuen i øverste venstre hjørne.
+
 ---
 
 ### 2. Samarbejde og pull requests
 
-Når I er flere om at opdatere en tekstfil (fx Maya og dig):
+Når I er flere om at opdatere en tekstfil:
 
 - **Trin 1:** Opret en ny branch som beskrevet ovenfor.
 - **Trin 2:** Lav dine ændringer og commit dem løbende.
