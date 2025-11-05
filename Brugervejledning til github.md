@@ -8,7 +8,7 @@
 [https://desktop.github.com](https://desktop.github.com)
 
 **MarkText** Brugervenlig måde at lave overskrifter, tabeller m.m. ala word program til markdown, gratis program (installer)
-[https://www.marktext.cc/](https://www.marktext.cc/)
+[https://github.com/marktext/marktext?tab=readme-ov-file](https://github.com/marktext/marktext?tab=readme-ov-file)
 
 **Github.com** (Til merge, issues  (howto guides) + projects til opgaver og issues med forskellige views )
 [Github.com](https://github.com)
