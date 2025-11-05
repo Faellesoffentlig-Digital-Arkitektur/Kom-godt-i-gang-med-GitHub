@@ -13,7 +13,7 @@ markdown og læg op på github repo.
 Bruges til at få sine ændringer op til github og hente nyeste version
 **(installer)**
 
-**MarkText** [<u>https://www.marktext.cc/</u>](https://www.marktext.cc/)
+**MarkText** [<u>https://github.com/marktext/marktext?tab=readme-ov-file</u>](https://github.com/marktext/marktext?tab=readme-ov-file)
 Brugervenlig måde at lave overskrifter, tabeller m.m. ala word program
 til markdown, gratis program (**installer)**
 
