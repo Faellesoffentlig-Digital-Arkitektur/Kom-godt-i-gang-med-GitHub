@@ -1,6 +1,6 @@
-Vejledning i at oprette en besked om fejl (bugs), forbedringsforslag eller idéer, et 'Issue'.
+# Vejledning i at oprette en besked om fejl (bugs), forbedringsforslag eller idéer, et 'Issue'.
 
-# 🧾 Skal man have en bruger for at oprette et GitHub-issue?
+## 🧾 Skal man have en bruger for at oprette et GitHub-issue?
 
 ## ✅ Ja, du skal have en GitHub-bruger
 
