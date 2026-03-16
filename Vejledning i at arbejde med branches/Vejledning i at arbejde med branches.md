@@ -94,7 +94,7 @@ Når I er flere om at opdatere en tekstfil:
 - Brug format:
   
   ```
-  - v2.1.2 (2025-05-12): Tilføjet afsnit om branches og review-proces. [Birgitte Buchhave]
+  - v2.1.2 (2025-05-12): Tilføjet afsnit om branches og review-proces. [x-dit navn-x]
   ```
 
 **Opdateringer i Drupal/FDA:**
@@ -118,7 +118,7 @@ Brug `Tag` og `Release` til vigtige milepæle. Fx når en ny vejledning er klar 
 
 ## Opdatering af figurer
 
-- Figurer gemmes typisk i mappen `/figures` eller lignende.
+- Figurer gemmes typisk i mappen `/assets` eller lignende.
 
 - Når du udskifter en figur:
   
@@ -127,7 +127,7 @@ Brug `Tag` og `Release` til vigtige milepæle. Fx når en ny vejledning er klar 
   - Opdater linket i .md-filen:
     
     ```md
-    ![Alt-tekst](../figures/nyfigur.png)
+    ![Alt-tekst](..//assets/nyfigur.png)
     ```
 
 ---
