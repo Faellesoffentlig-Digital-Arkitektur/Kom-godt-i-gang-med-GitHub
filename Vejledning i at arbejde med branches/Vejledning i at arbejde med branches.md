@@ -2,11 +2,11 @@
 
 # Brug af branches til review-proces for tekstfiler (.md) i GitHub
 
-Denne vejledning beskriver, hvordan vi arbejder effektivt med branches og review-processer i GitHub, når vi opdaterer dokumenter i [Fællesoffentlig Digital Arkitektur](https://github.com/Faellesoffentlig-Digital-Arkitektur). Formålet er at skabe gennemsigtighed, sporbarhed og sikre samarbejde.
+Denne vejledning beskriver, hvordan vi arbejder effektivt med branches og review-processer (her kommentering) i GitHub, når vi opdaterer dokumenter i [Fællesoffentlig Digital Arkitektur](https://github.com/Faellesoffentlig-Digital-Arkitektur). Formålet er at skabe gennemsigtighed, sporbarhed og sikre samarbejde.
 
 ## Hvad er en branch i GitHub?
 
-En **branch** (gren) i GitHub er en kopi af koden eller dokumenterne i et repository, hvor du kan lave ændringer uden at påvirke hovedversionen (`main`). Det giver mulighed for at arbejde sikkert og parallelt med fx rettelser, nye afsnit eller store opdateringer – indtil ændringerne er klar til at blive flettet (merged) tilbage til hovedversionen.
+En **branch** (gren) i GitHub er en kopi af koden eller dokumenterne i et repository, hvor du kan foretage ændringer uden at påvirke hovedversionen (`main`). Det giver mulighed for at arbejde sikkert og parallelt med fx rettelser, nye afsnit eller store opdateringer, – indtil ændringerne er klar til at blive flettet (merged) tilbage til hovedversionen.
 
 > 💡 Man bruger branches, når man vil:
 > 
@@ -14,7 +14,7 @@ En **branch** (gren) i GitHub er en kopi af koden eller dokumenterne i et reposi
 > - samarbejde om ændringer
 > - få overblik og struktur i versionshistorikken
 
-Typisk opretter man en ny branch, laver sine ændringer, og når de er klar, laver man en **pull request**, så andre kan kommentere og godkende.
+Typisk opretter man en ny branch, foretager sine ændringer, og når de er klar, oprettes et **pull request**, så andre kan kommentere og godkende.
 
 ## Navngivning af branches
 
