@@ -1,4 +1,4 @@
-Vejledning i at oprette en kommentar
+Vejledning i at oprette en besked om fejl (bugs), forbedringsforslag eller idéer, et 'Issue'.
 
 # 🧾 Skal man have en bruger for at oprette et GitHub-issue?
 
